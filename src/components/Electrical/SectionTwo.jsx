@@ -3,12 +3,12 @@ import React from "react";
 export default function SectionTwo() {
   // 🧰 Dummy Data (Text from your image)
   const materialServices = [
-    "Electrical Installation",
-    "Power Distribution Systems",
-    "Lighting & Control System",
-    "Panel Boards & Switchgear",
-    "Testing & Commissioning",
-    "Maintance & Emergeny Support",
+    "Terminations",
+    "Testing",
+    "Installations",
+    "Cable Pulling",
+    "Electrical Workforce",
+    "Electrical Misc. Works",
   ];
 
   return (

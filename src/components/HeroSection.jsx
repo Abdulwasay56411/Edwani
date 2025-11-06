@@ -108,9 +108,9 @@ const HeroSection = () => {
           {/* Premium Content */}
           <motion.div className="space-y-6 w-full" variants={fadeUp}>
             <p className="text-gray-700 text-base md:text-lg leading-7 md:leading-8 font-medium text-center xl:text-left">
-              Explore the difference with Edwani Contracting — where quality meets
-              reliability. We deliver exceptional construction services with
-              unparalleled expertise.
+              Explore the difference with Edwani Contracting — where quality
+              meets reliability. We deliver exceptional construction services
+              with unparalleled expertise.
             </p>
           </motion.div>
 
@@ -167,14 +167,14 @@ const HeroSection = () => {
         <motion.div className="relative w-full max-w-[549px] h-[548px] flex-shrink-0">
           <div className="relative w-full h-full">
             <motion.img
-              src="/hero5.png"
+              src="/homehero4.png"
               alt="Construction 1"
               className="absolute w-[25%] max-w-[144px] aspect-square object-contain rounded-lg"
               style={{ top: "45%", left: "58%" }}
               {...imageFloat}
             />
             <motion.img
-              src="/hero3.png"
+              src="/homehero1.png"
               alt="Construction 2"
               className="absolute w-[40%] max-w-[224px] aspect-square object-contain rounded-lg"
               style={{ top: "0%", left: "35%" }}
@@ -182,7 +182,7 @@ const HeroSection = () => {
               transition={{ duration: 4 }}
             />
             <motion.img
-              src="/hero1.png"
+              src="/homehero3.jpg"
               alt="Construction 3"
               className="absolute w-[25%] max-w-[144px] aspect-square object-contain rounded-lg"
               style={{ top: "14%", left: "4%" }}
@@ -198,7 +198,7 @@ const HeroSection = () => {
               transition={{ duration: 5 }}
             />
             <motion.img
-              src="/hero2.png"
+              src="/homehero2.png"
               alt="Construction 5"
               className="absolute w-[20%] max-w-[112px] aspect-square object-contain rounded-lg"
               style={{ top: "18%", left: "80%" }}
@@ -274,8 +274,9 @@ const HeroSection = () => {
               className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto mb-12 font-light"
               variants={fadeUp}
             >
-              Excellence in every project. Trust Edwani Contracting for unparalleled
-              construction quality and reliability that stands the test of time.
+              Excellence in every project. Trust Edwani Contracting for
+              unparalleled construction quality and reliability that stands the
+              test of time.
             </motion.p>
           </motion.div>
 
@@ -290,9 +291,9 @@ const HeroSection = () => {
                 className="text-lg text-gray-700 leading-8 font-medium"
                 variants={fadeUp}
               >
-                Explore the difference with Edwani Contracting — where quality meets
-                reliability. We deliver exceptional construction services with
-                unparalleled expertise.
+                Explore the difference with Edwani Contracting — where quality
+                meets reliability. We deliver exceptional construction services
+                with unparalleled expertise.
               </motion.p>
 
               {/* Buttons - Side by side on tablet/small laptop */}
@@ -464,8 +465,9 @@ const HeroSection = () => {
               className="text-lg text-gray-600 leading-relaxed max-w-md mx-auto mb-10 font-light"
               variants={fadeUp}
             >
-              Excellence in every project. Trust Edwani contracting for unparalleled
-              construction quality and reliability that stands the test of time.
+              Excellence in every project. Trust Edwani contracting for
+              unparalleled construction quality and reliability that stands the
+              test of time.
             </motion.p>
           </motion.div>
 

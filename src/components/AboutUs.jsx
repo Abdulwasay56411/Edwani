@@ -49,7 +49,6 @@ const About = () => {
     <motion.section
       className="relative flex flex-col xl:flex-row items-center justify-between 
                  gap-12 md:gap-16 xl:gap-24  md:py-24 px-4 sm:px-6 xl:px-24 overflow-hidden
-                 
                  "
       initial="hidden"
       whileInView="visible"
@@ -69,7 +68,7 @@ const About = () => {
           <div className="relative w-full h-full">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-sky-700/10 rounded-3xl" />
             <img
-              src="/homeabout-1.jpg"
+              src="/aboutimage1.jpg"
               alt="Edwani contracting Construction Excellence - Premium Projects Showcase"
               className="w-full h-full rounded-3xl object-cover 
                          shadow-2xl border-[5px] border-white/95
@@ -89,7 +88,7 @@ const About = () => {
           <div className="relative w-full h-full">
             <div className="absolute inset-0 bg-gradient-to-tr from-sky-400/5 to-blue-600/8 rounded-3xl" />
             <img
-              src="/homeabout-2.jpg"
+              src="/aboutimage2.jpg"
               alt="Edwani contracting Heavy Equipment & Machinery Services"
               className="w-full h-full rounded-3xl object-cover 
                          shadow-xl border-[4px] border-white/90
@@ -109,7 +108,7 @@ const About = () => {
           <div className="relative w-full h-full">
             <div className="absolute inset-0 bg-gradient-to-bl from-sky-500/5 to-blue-700/8 rounded-3xl" />
             <img
-              src="/homeabout-3.jpg"
+              src="/aboutimage3.jpg"
               alt="Edwani Contracting Infrastructure & Road Construction Expertise"
               className="w-full h-full rounded-3xl object-cover 
                          shadow-xl border-[4px] border-white/90
@@ -154,7 +153,7 @@ const About = () => {
             <div className="absolute -left-4 md:-left-6 top-0 w-1 h-full bg-gradient-to-b from-[#2387C0] to-sky-400 rounded-full" />
             <p className="text-gray-800 text-base md:text-lg leading-7 md:leading-9 font-medium pl-4 md:pl-4">
               <strong className="font-bold text-gray-900">
-                Mohaisin Ibrahim Taama Edwani Contracting 
+                Mohaisin Ibrahim Taama Edwani Contracting
               </strong>{" "}
               has been the{" "}
               <span className="text-[#2387C0] font-semibold">
@@ -227,7 +226,7 @@ const About = () => {
           <div className="relative group">
             <img
               className="w-full h-48 md:h-56 rounded-2xl object-cover shadow-lg group-hover:shadow-xl transition-all duration-300"
-              src="/homeabout-1.jpg"
+              src="/aboutimage1.jpg"
               alt="Al-Edwani Construction Projects"
             />
             <div className="absolute inset-0 bg-blue-900 opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300" />
@@ -235,7 +234,7 @@ const About = () => {
           <div className="relative group">
             <img
               className="w-full h-32 md:h-40 rounded-2xl object-cover shadow-lg border-4 border-white group-hover:shadow-xl transition-all duration-300"
-              src="/homeabout-2.jpg"
+              src="/aboutimage2.jpg"
               alt="Al-Edwani Equipment Services"
             />
             <div className="absolute inset-0 bg-blue-900 opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300" />
@@ -248,7 +247,7 @@ const About = () => {
           <div className="relative group">
             <img
               className="w-full h-32 md:h-40 rounded-2xl object-cover shadow-lg border-4 border-white group-hover:shadow-xl transition-all duration-300"
-              src="/homeabout-3.jpg"
+              src="/aboutimage3.jpg"
               alt="Al-Edwani Infrastructure Development"
             />
             <div className="absolute inset-0 bg-blue-900 opacity-0 group-hover:opacity-10 rounded-2xl transition-opacity duration-300" />
