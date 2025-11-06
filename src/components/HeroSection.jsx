@@ -108,9 +108,9 @@ const HeroSection = () => {
           {/* Premium Content */}
           <motion.div className="space-y-6 w-full" variants={fadeUp}>
             <p className="text-gray-700 text-base md:text-lg leading-7 md:leading-8 font-medium text-center xl:text-left">
-              Explore the difference with Edwani Contracting — where quality
-              meets reliability. We deliver exceptional construction services
-              with unparalleled expertise.
+              Explore the difference with Edwani Contracting where quality meets
+              reliability. We deliver exceptional construction services with
+              unparalleled expertise.
             </p>
           </motion.div>
 
@@ -291,7 +291,7 @@ const HeroSection = () => {
                 className="text-lg text-gray-700 leading-8 font-medium"
                 variants={fadeUp}
               >
-                Explore the difference with Edwani Contracting — where quality
+                Explore the difference with Edwani Contracting where quality
                 meets reliability. We deliver exceptional construction services
                 with unparalleled expertise.
               </motion.p>
