@@ -305,7 +305,7 @@ const TransparentNavbar = () => {
                           <div
                             key={subIndex}
                             onClick={() => handleNavigation(subLink.path)}
-                            className={`px-5 py-3 text-[15px] xl:text-[16px] font-medium cursor-pointer transition-all duration-200 hover:translate-x-1 ${
+                            className={`px-5 py-3 text-[15px] xl:text-[16px] font-medium cursor-pointer transition-all duration-200  ${
                               isActivePath(subLink.path)
                                 ? "bg-[#2387C0] text-white"
                                 : "text-[#333] hover:bg-blue-50 hover:text-[#2387C0]"

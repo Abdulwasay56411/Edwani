@@ -15,7 +15,7 @@ const Projects2 = () => {
     >
       {/* ✅ Reusable Header Component */}
       <PageHeader
-        title="Residential & Industrial Projects"
+        title="Residential & Industrial"
         subtitle="Edwani Contracting"
         image="/projectbg.jpg"
       />
