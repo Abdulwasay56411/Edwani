@@ -8,7 +8,7 @@ import Projects from "./pages/Projects";
 import Equipments from "./pages/Equipments";
 import ElectricalWorks from "./pages/ElectricalWorks";
 import ContactUs from "./pages/ContactUs";
-import Loader from "./components/Loader"; // ✅ import the loader
+import Loader from "./components/Loader";
 import Career from "./pages/Career";
 import ProjectDetailPage from "./pages/ProjectDetailPage";
 import Qhse from "./pages/QHSE/Qhse";
@@ -18,13 +18,17 @@ import HealthSafetyPolicy from "./pages/QHSE/HealthSafetyPolicy";
 import EnvironmentalPolicy from "./pages/QHSE/EnviromentalPolicy";
 import Certifications from "./pages/QHSE/Certifications";
 import Awards from "./pages/QHSE/Awards";
-import ProjectCard2 from "./components/Project/ProjectCard2";
-import ProjectCard3 from "./components/Project/ProjectCard3";
 import Projects2 from "./pages/Projects2";
 import Projects3 from "./pages/Projects3";
-import ConstructionServices from "./pages/ConstructionServices";
-import MechanicalServices from "./pages/MechanicalServices";
 import Customers from "./pages/Customers";
+import MEPConsultancy from "./pages/services/MepConsultancy";
+import Landscaping from "./pages/services/Landscaping";
+import Hardscaping from "./pages/services/Hardscaping";
+import CivilEngineering from "./pages/services/CivilEngineering";
+import EquipmentRental from "./pages/services/EquipmentRental";
+import ConstructionMaterial from "./pages/services/ConstructionMaterial";
+import SafetyConsultancy from "./pages/services/SafetyConsultancy";
+
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -47,14 +51,19 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<Aboutus />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/construction" element={<MEPConsultancy />} />
+
+            <Route path="/services/landscaping" element={<Landscaping />} />
+            <Route path="/services/hardscaping" element={<Hardscaping />} />
+            <Route path="/services/civil" element={<CivilEngineering />} />
+
+            <Route path="/services/equipment" element={<EquipmentRental />} />
             <Route
-              path="/services/construction"
-              element={<ConstructionServices />}
+              path="/services/constructionmaterial"
+              element={<ConstructionMaterial />}
             />
-            <Route
-              path="/services/mechanical"
-              element={<MechanicalServices />}
-            />
+            <Route path="/services/safety" element={<SafetyConsultancy />} />
+
             <Route path="/project" element={<Projects />} />
             <Route
               path="/projects/residential-industrial"

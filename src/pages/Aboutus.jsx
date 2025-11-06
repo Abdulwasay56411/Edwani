@@ -1,8 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Navbar from "../components/Navbar";
-import TransparentNavbar from "../components/TransparentNavbar";
 import Section2 from "../components/About/Section2";
+import TransparentNavbar from '../components/TransparentNavbar';
 import SpecializationSection from "../components/About/SpecializationSection";
 import VisionAndValues from "../components/About/VisionAndValues";
 import SafetyStandards from "../components/About/SafetyStandards";
@@ -59,7 +58,7 @@ const Aboutus = () => {
         >
           {/* Navbar */}
           <div className="w-full">
-            <TransparentNavbar />
+            <TransparentNavbar/>
           </div>
 
           {/* Hero Content */}

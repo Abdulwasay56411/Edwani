@@ -66,7 +66,7 @@ const TransparentNavbar = () => {
     { name: "Services", hasDropdown: true, mainPath: "/services" },
     { name: "Projects", hasDropdown: true, mainPath: "/project" },
     { name: "Customers", path: "/customer" },
-    { name: "QHSE", hasDropdown: true, mainPath: "/qhse" },
+    { name: "QHSE", hasDropdown: true, mainPath: "/qhse" }, 
     { name: "Career", path: "/career" },
   ];
 
