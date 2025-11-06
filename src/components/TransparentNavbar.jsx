@@ -7,6 +7,12 @@ import {
   HiPhone,
 } from "react-icons/hi";
 import { useLocation, useNavigate } from "react-router-dom";
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaLinkedinIn,
+  FaYoutube,
+} from "react-icons/fa";
 
 const TransparentNavbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -117,51 +123,95 @@ const TransparentNavbar = () => {
       {/* Enhanced Top Links Bar - Professional Mobile Design */}
       <div className="w-full bg-gradient-to-r from-[#2387C0] to-[#2a95d6] py-2 px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         <div className="w-full">
-          {/* Desktop & Tablet Top Links */}
+          {/* Desktop & Tablet Top Links - UNCHANGED */}
           <div className="hidden md:flex justify-between items-center text-white">
             {/* Left Section - Contact Info */}
             <div className="flex items-center space-x-4 lg:space-x-6">
               <span className="flex items-center space-x-2 text-sm lg:text-[15px] font-medium bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-lg">
                 <HiMail className="text-white/90 text-sm" />
-                <span>info@edwani.com</span>
+                <span>info@edwanicontracting.com</span>
               </span>
               <span className="flex items-center space-x-2 text-sm lg:text-[15px] font-medium bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-lg">
                 <HiPhone className="text-white/90 text-sm" />
-                <span>+968 8826 5850</span>
+                <span>+050-4393166</span>
               </span>
             </div>
 
-            {/* Right Section - Company Text */}
-            <div className="flex items-center space-x-4 lg:space-x-6">
-              <span className="text-sm lg:text-[15px] font-semibold text-white/95 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-lg">
-                Weworkwitglobslinisty
-              </span>
-              <span className="text-sm lg:text-[15px] font-semibold text-white/95 bg-white/10 backdrop-blur-sm px-3 py-1.5 rounded-lg">
-                helogBrobticcom
-              </span>
+            {/* Right Section - Social Icons */}
+            <div className="flex items-center space-x-3 lg:space-x-4">
+              <a
+                href="#"
+                className="bg-white/10 backdrop-blur-sm p-2 rounded-lg hover:bg-white/20 transition"
+              >
+                <FaFacebookF className="text-white text-[14px] lg:text-[17px]" />
+              </a>
+
+              <a
+                href="#"
+                className="bg-white/10 backdrop-blur-sm p-2 rounded-lg hover:bg-white/20 transition"
+              >
+                <FaTwitter className="text-white text-[14px] lg:text-[17px]" />
+              </a>
+
+              <a
+                href="#"
+                className="bg-white/10 backdrop-blur-sm p-2 rounded-lg hover:bg-white/20 transition"
+              >
+                <FaLinkedinIn className="text-white text-[14px] lg:text-[17px]" />
+              </a>
+
+              <a
+                href="#"
+                className="bg-white/10 backdrop-blur-sm p-2 rounded-lg hover:bg-white/20 transition"
+              >
+                <FaYoutube className="text-white text-[14px] lg:text-[17px]" />
+              </a>
             </div>
           </div>
 
-          {/* Mobile Top Links - Modern Professional Design */}
-          <div className="md:hidden flex items-center justify-between text-white py-1">
-            {/* Contact Info - Compact horizontal layout */}
-            <div className="flex items-center space-x-3">
-              <span className="flex items-center space-x-1 text-xs font-medium">
-                <HiMail className="text-white/90 text-xs" />
-                <span className="hidden xs:inline">info@edwani.com</span>
-              </span>
-              <div className="w-px h-3 bg-white/30"></div>
-              <span className="flex items-center space-x-1 text-xs font-medium">
-                <HiPhone className="text-white/90 text-xs" />
-                <span className="hidden xs:inline">+968 8826 5850</span>
-              </span>
+          {/* ===== UPDATED Mobile Top Links - Matches your image style ===== */}
+          <div className="md:hidden flex flex-col items-center text-white py-3 space-y-3">
+            {/* Email */}
+            <div className="flex items-center space-x-2 text-sm font-medium">
+              <HiMail className="text-white/90 text-lg" />
+              <span>info@edwanicontracting.com</span>
             </div>
 
-            {/* Company Text - Minimal */}
-            <div className="flex items-center">
-              <span className="text-xs font-semibold text-white/95 bg-white/10 backdrop-blur-sm px-2 py-1 rounded">
-                Global Standards
-              </span>
+            {/* Phone */}
+            <div className="flex items-center space-x-2 text-sm font-medium">
+              <HiPhone className="text-white/90 text-lg" />
+              <span>+050-4393166</span>
+            </div>
+
+            {/* Social Icons */}
+            <div className="flex items-center justify-center space-x-3 pt-1">
+              <a
+                href="#"
+                className="bg-white/10 backdrop-blur-sm p-2 rounded-lg hover:bg-white hover:text-[#2387C0] transition"
+              >
+                <FaFacebookF className="text-white text-[14px]" />
+              </a>
+
+              <a
+                href="#"
+                className="bg-white/10 backdrop-blur-sm p-2 rounded-lg hover:bg-white hover:text-[#2387C0] transition"
+              >
+                <FaTwitter className="text-white text-[14px]" />
+              </a>
+
+              <a
+                href="#"
+                className="bg-white/10 backdrop-blur-sm p-2 rounded-lg hover:bg-white hover:text-[#2387C0] transition"
+              >
+                <FaLinkedinIn className="text-white text-[14px]" />
+              </a>
+
+              <a
+                href="#"
+                className="bg-white/10 backdrop-blur-sm p-2 rounded-lg hover:bg-white hover:text-[#2387C0] transition"
+              >
+                <FaYoutube className="text-white text-[14px]" />
+              </a>
             </div>
           </div>
         </div>
@@ -287,7 +337,7 @@ const TransparentNavbar = () => {
               onClick={() => setMenuOpen(!menuOpen)}
               className="cursor-pointer p-2 rounded-lg hover:bg-gray-100 transition-all duration-300 flex-shrink-0"
             >
-              <HiMenuAlt1 size={24} className="text-[#2387C0]" />
+              <HiMenuAlt1 size={26} className="text-[#2387C0]" />
             </div>
 
             {/* Mobile Logo - Centered */}
@@ -303,10 +353,10 @@ const TransparentNavbar = () => {
                 className="mr-2 transition-transform duration-300 group-hover:scale-105 flex-shrink-0"
               />
               <div className="text-start min-w-0 flex flex-col md:flex-row md:gap-1">
-                <h1 className="text-base sm:text-lg font-bold text-[#2387C0] leading-tight">
+                <h1 className="text-[13px] sm:text-lg font-bold text-[#2387C0] leading-tight">
                   Edwani
                 </h1>
-                <p className="text-base sm:text-lg font-bold text-[#2387C0] leading-tight">
+                <p className="text-[13px] sm:text-lg font-bold text-[#2387C0] leading-tight">
                   Contracting
                 </p>
               </div>
@@ -315,7 +365,7 @@ const TransparentNavbar = () => {
             {/* Mobile Contact Button - Right Side */}
             <button
               onClick={() => navigate("/contact")}
-              className="px-3 sm:px-4 py-2 text-white bg-[#2387C0] font-semibold text-xs rounded-lg hover:bg-[#1e76a9] transition-all duration-300 shadow-md flex-shrink-0 whitespace-nowrap"
+              className="px-3 sm:px-4 py-1.5 text-white bg-[#2387C0] font-semibold text-xs rounded-lg hover:bg-[#1e76a9] transition-all duration-300 shadow-md flex-shrink-0 whitespace-nowrap"
             >
               Contact
             </button>

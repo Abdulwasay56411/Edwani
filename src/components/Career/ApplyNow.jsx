@@ -99,7 +99,7 @@ const ApplyNow = () => {
           </div>
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 md:mb-6 px-2">
             Build Your Future With{" "}
-            <span className="text-[#2387C0]">Al-Edwani</span>
+            <span className="text-[#2387C0]">Edwani Constructing</span>
           </h1>
           <div className="w-20 md:w-24 h-1.5 bg-gradient-to-r from-[#2387C0] to-blue-400 mx-auto mb-6 md:mb-8 rounded-full"></div>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed px-2">
@@ -178,7 +178,7 @@ const ApplyNow = () => {
             {/* Features */}
             <div className="bg-gradient-to-br from-[#2387C0] to-[#228bc8] rounded-xl md:rounded-2xl p-6 md:p-8 text-white shadow-lg">
               <h3 className="text-xl md:text-2xl font-bold mb-4 md:mb-6">
-                Why Choose Al-Edwani?
+                Why Choose Edwani Constructing?
               </h3>
               <div className="space-y-4 md:space-y-6">
                 {features.map((feature, index) => (
@@ -224,7 +224,7 @@ const ApplyNow = () => {
                   Application Submitted!
                 </h3>
                 <p className="text-gray-600 text-sm md:text-base mb-6 md:mb-8">
-                  Thank you for your interest in Al-Edwani. We've received your
+                  Thank you for your interest in Edwani. We've received your
                   application and will contact you shortly.
                 </p>
                 <button
@@ -363,7 +363,7 @@ const ApplyNow = () => {
                     onChange={handleChange}
                     rows="3"
                     className="w-full px-3 py-2 md:px-4 md:py-3 border border-gray-300 rounded-lg md:rounded-xl focus:ring-2 focus:ring-[#2387C0] focus:border-[#2387C0] transition-colors duration-300 resize-none text-sm md:text-base"
-                    placeholder="Tell us why you're interested in joining Al-Edwani..."
+                    placeholder="Tell us why you're interested in joining Edwani..."
                   />
                 </div>
 

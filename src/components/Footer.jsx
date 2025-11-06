@@ -17,9 +17,7 @@ const Footer = () => {
           <h2 className="text-[26px]  font-bold uppercase tracking-wide text-nowrap">
             EDWANI Contracting
           </h2>
-          <p className=" text-lg text-gray-300 font-medium -mt-6">
-          Construction
-          </p>
+
           <p className=" text-gray-400 text-base sm:text-lg w-full">
             From cities to remote sites we deliver projects with quality,
             reliability, and experience.
@@ -31,7 +29,7 @@ const Footer = () => {
               <MdEmail className="w-6 h-6 text-[#2387C0]" />
             </div>
             <span className="text-sm sm:text-base font-medium break-words ">
-              wasimmajeed100@gmail.com
+              info@edwanicontracting.com
             </span>
           </div>
         </div>
@@ -102,7 +100,7 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-6 relative z-10">
         <p className="text-gray-400 text-base sm:text-lg text-center sm:text-left">
-          © 2024 Edwani Group. All Rights Reserved.
+          © 2024 Edwani Contracting. All Rights Reserved.
         </p>
 
         {/* Social Media Icons */}

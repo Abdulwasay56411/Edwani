@@ -15,7 +15,7 @@ const Home = () => {
     <div className="flex flex-col">
       <TransparentNavbar />
       {/* Hero Section */}
-      <section className="pt-[150px] md:pt-[130px] md:pb-12">
+      <section className="pt-[170px] md:pt-[130px] md:pb-12">
         <HeroSection />
       </section>
 
@@ -52,6 +52,5 @@ const Home = () => {
     </div>
   );
 };
-
 
 export default Home;

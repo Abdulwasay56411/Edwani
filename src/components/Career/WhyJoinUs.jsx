@@ -97,12 +97,12 @@ const WhyJoinUs = () => {
         {/* Section Header */}
         <div className="text-center mb-10 md:mb-12 lg:mb-16">
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#2387C0] mb-3 md:mb-4">
-            Why Join Al-Edwani?
+            Why Join Edwani Contracting?
           </h2>
           <div className="w-16 sm:w-20 h-1 bg-[#2387C0] mx-auto mb-4 md:mb-6"></div>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Discover the exceptional benefits and opportunities that make
-            Edwani Contracting the preferred choice for construction professionals in
+            Discover the exceptional benefits and opportunities that make Edwani
+            Contracting the preferred choice for construction professionals in
             Saudi Arabia.
           </p>
         </div>

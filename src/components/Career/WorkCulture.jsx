@@ -74,8 +74,8 @@ const WorkCulture = () => {
           <div className="lg:w-1/2 w-full">
             <div className="mb-6 md:mb-8">
               <p className="text-base sm:text-lg md:text-xl text-gray-700 mb-4 md:mb-6 leading-relaxed">
-                Our success begins with our people. At Al-Edwani, every project
-                is powered by dedicated engineers, technicians, and site experts
+                Our success begins with our people. At Edwani, every project is
+                powered by dedicated engineers, technicians, and site experts
                 who share a single vision of quality and integrity.
               </p>
 

@@ -219,7 +219,7 @@ const ContactSection = () => {
                     <div className="min-w-0 flex-1">
                       <p className="text-gray-600 text-sm">Email</p>
                       <p className="text-gray-900 font-semibold text-sm lg:text-base break-all">
-                        edwanigroup@gmail.com
+                        info@edwanicontracting.com
                       </p>
                     </div>
                   </div>
