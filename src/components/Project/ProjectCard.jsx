@@ -7,7 +7,7 @@ export default function ProjectCard() {
       title: "Yanbu Tree Plantation Project",
       description:
         "Large-scale landscaping and greenery development with a focus on sustainable planting and environmental conservation in Yanbu industrial city.",
-      image: "/Projects/c-dustin-91AQt9p4Mo8-unsplash.jpg",
+      image: "/c-dustin-91AQt9p4Mo8-unsplash.jpg",
       position: "left",
       category: "Landscaping",
       duration: "24 Months",
@@ -17,7 +17,7 @@ export default function ProjectCard() {
       title: "Date Palms Development",
       description:
         "Comprehensive date palm cultivation project featuring modern agricultural techniques and sustainable farming practices.",
-      image: "/Projects/christopher-burns-8KfCR12oeUM-unsplash.jpg",
+      image: "/christopher-burns-8KfCR12oeUM-unsplash.jpg",
       position: "right",
       category: "Agriculture",
       duration: "18 Months",
@@ -27,7 +27,7 @@ export default function ProjectCard() {
       title: "RJ Mastoura Project",
       description:
         "Modern residential complex with innovative architectural design and premium amenities for contemporary living.",
-      image: "/Projects/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg",
+      image: "/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg",
       position: "left",
       category: "Residential",
       duration: "36 Months",
@@ -37,7 +37,7 @@ export default function ProjectCard() {
       title: "RC Park Project",
       description:
         "Urban park development featuring recreational facilities, green spaces, and community gathering areas.",
-      image: "/Projects/etienne-girardet-sgYamIzhAhg-unsplash.jpg",
+      image: "/etienne-girardet-sgYamIzhAhg-unsplash.jpg",
       position: "right",
       category: "Public Space",
       duration: "20 Months",
@@ -47,7 +47,7 @@ export default function ProjectCard() {
       title: "China Harbour Bridge Project",
       description:
         "Engineering marvel connecting strategic locations with state-of-the-art bridge construction technology.",
-      image: "/Projects/greyson-joralemon-A1g0oeX29ec-unsplash.jpg",
+      image: "/greyson-joralemon-A1g0oeX29ec-unsplash.jpg",
       position: "left",
       category: "Infrastructure",
       duration: "48 Months",
@@ -57,7 +57,7 @@ export default function ProjectCard() {
       title: "AL-Murooj Project",
       description:
         "Luxury residential community offering premium lifestyle amenities and sustainable living solutions.",
-      image: "/Projects/guilherme-cunha-4zwozQxDbD4-unsplash.jpg",
+      image: "/guilherme-cunha-4zwozQxDbD4-unsplash.jpg",
       position: "right",
       category: "Residential",
       duration: "42 Months",
@@ -67,7 +67,7 @@ export default function ProjectCard() {
       title: "Yasref Project",
       description:
         "Industrial facility construction with focus on safety standards and operational efficiency.",
-      image: "/Projects/h-co-3coKbdfnAFg-unsplash.jpg",
+      image: "/h-co-3coKbdfnAFg-unsplash.jpg",
       position: "left",
       category: "Industrial",
       duration: "30 Months",
@@ -77,13 +77,13 @@ export default function ProjectCard() {
       title: "Al-Sharam Road Project",
       description:
         "Major highway development enhancing connectivity and transportation infrastructure across the region.",
-      image: "/Projects/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg",
+      image: "/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg",
       position: "right",
       category: "Infrastructure",
       duration: "28 Months",
     },
   ];
-  
+
   return (
     <div className="min-h-screen  relative overflow-hidden py-12 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

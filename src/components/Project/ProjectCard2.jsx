@@ -7,7 +7,7 @@ export default function ProjectCard2() {
       title: "China Harbour Bridge Project",
       description:
         "Engineering marvel connecting strategic locations with state-of-the-art bridge construction technology.",
-      image: "/Projects/greyson-joralemon-A1g0oeX29ec-unsplash.jpg",
+      image: "/greyson-joralemon-A1g0oeX29ec-unsplash.jpg",
       position: "left",
       category: "Infrastructure",
       duration: "48 Months",
@@ -17,7 +17,7 @@ export default function ProjectCard2() {
       title: "AL-Murooj Project",
       description:
         "Luxury residential community offering premium lifestyle amenities and sustainable living solutions.",
-      image: "/Projects/guilherme-cunha-4zwozQxDbD4-unsplash.jpg",
+      image: "/guilherme-cunha-4zwozQxDbD4-unsplash.jpg",
       position: "right",
       category: "Residential",
       duration: "42 Months",
@@ -27,7 +27,7 @@ export default function ProjectCard2() {
       title: "Yasref Project",
       description:
         "Industrial facility construction with focus on safety standards and operational efficiency.",
-      image: "/Projects/h-co-3coKbdfnAFg-unsplash.jpg",
+      image: "/h-co-3coKbdfnAFg-unsplash.jpg",
       position: "left",
       category: "Industrial",
       duration: "30 Months",
@@ -37,7 +37,7 @@ export default function ProjectCard2() {
       title: "Al-Sharam Road Project",
       description:
         "Major highway development enhancing connectivity and transportation infrastructure across the region.",
-      image: "/Projects/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg",
+      image: "/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg",
       position: "right",
       category: "Infrastructure",
       duration: "28 Months",

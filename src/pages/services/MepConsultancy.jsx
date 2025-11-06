@@ -1,65 +1,18 @@
 import React from "react";
-import { motion } from "framer-motion";
-import TransparentNavbar from "./../../components/TransparentNavbar";
+import PageHeader from "../../components/PageHeader"; // ✅ Import PageHeader
 
 const MEPConsultancy = () => {
   return (
     <div className="relative">
-      {/* Header Section */}
-      <div className="relative">
-        {/* Background with Navbar inside */}
-        <div
-          className="relative w-full bg-cover bg-center h-[500px] md:min-h-screen flex flex-col"
-          style={{
-            backgroundImage: `url(/bgservices.jpg)`,
-          }}
-        >
-          {/* Blue Overlay */}
-          <div className="absolute inset-0 bg-[#2387C0]/60"></div>
+      {/* ✅ Reusable Page Header */}
+      <PageHeader
+        title="MEP Consultancy"
+        subtitle="Edwani Contracting"
+        image="/bgservices.jpg"
+      />
 
-          {/* Navbar */}
-          <div className="w-full relative z-1000">
-            <TransparentNavbar />
-          </div>
-
-          {/* Animated Content Card */}
-          <motion.div
-            initial={{ opacity: 0, y: 40 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1, ease: "easeOut" }}
-            className="flex-1 flex justify-center items-center relative z-10"
-          >
-            <div
-              className="flex flex-col justify-center items-center text-center 
-                        bg-white/80 backdrop-blur-lg 
-                        rounded-md md:rounded-xl 
-                        shadow-[0px_2.9px_3.3px_0px_rgba(0,0,0,0.06),0px_7.2px_9.4px_0px_rgba(0,0,0,0.05)] 
-                        w-64 h-24 md:w-[500px] md:h-[180px] lg:w-[732px] lg:h-60 p-4 md:p-8 lg:p-12
-                        -mt-8"
-            >
-              <motion.h2
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.3, duration: 0.8 }}
-                className="text-[#2387C0] font-extrabold text-lg md:text-3xl lg:text-[48px] leading-tight"
-              >
-                MEP Consultancy
-              </motion.h2>
-
-              <motion.p
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.6, duration: 0.8 }}
-                className="text-stone-900 font-semibold text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl leading-snug mt-2 break-words"
-              >
-                Edwani Contracting
-              </motion.p>
-            </div>
-          </motion.div>
-        </div>
-      </div>
+      {/* ✅ Content Section (unchanged) */}
       <div className=" bg-gray-50">
-        {/* Content Section - Remains exactly the same */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
           <div className="max-w-6xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
@@ -67,85 +20,62 @@ const MEPConsultancy = () => {
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">
                   Expert MEP Engineering Solutions
                 </h2>
+
                 <p className="text-lg text-gray-700 mb-6">
                   Our MEP Consultancy services provide integrated mechanical,
                   electrical, and plumbing solutions that ensure optimal
                   performance, energy efficiency, and compliance with
                   international standards.
                 </p>
+
                 <div className="space-y-4">
-                  <div className="flex items-start">
-                    <div className="bg-[#2387C0] rounded-full p-2 mt-1 mr-4">
-                      <div className="w-2 h-2 bg-white rounded-full"></div>
+                  {[
+                    "HVAC system design and optimization",
+                    "Electrical power distribution and lighting systems",
+                    "Plumbing, fire protection, and drainage systems",
+                    "Building automation and control systems",
+                  ].map((item, i) => (
+                    <div key={i} className="flex items-start">
+                      <div className="bg-[#2387C0] rounded-full p-2 mt-1 mr-4">
+                        <div className="w-2 h-2 bg-white rounded-full"></div>
+                      </div>
+                      <p className="text-gray-700">{item}</p>
                     </div>
-                    <p className="text-gray-700">
-                      HVAC system design and optimization
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-[#2387C0] rounded-full p-2 mt-1 mr-4">
-                      <div className="w-2 h-2 bg-white rounded-full"></div>
-                    </div>
-                    <p className="text-gray-700">
-                      Electrical power distribution and lighting systems
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-[#2387C0] rounded-full p-2 mt-1 mr-4">
-                      <div className="w-2 h-2 bg-white rounded-full"></div>
-                    </div>
-                    <p className="text-gray-700">
-                      Plumbing, fire protection, and drainage systems
-                    </p>
-                  </div>
-                  <div className="flex items-start">
-                    <div className="bg-[#2387C0] rounded-full p-2 mt-1 mr-4">
-                      <div className="w-2 h-2 bg-white rounded-full"></div>
-                    </div>
-                    <p className="text-gray-700">
-                      Building automation and control systems
-                    </p>
-                  </div>
+                  ))}
                 </div>
               </div>
+
               <div className="bg-white rounded-xl shadow-lg p-8">
                 <h3 className="text-2xl font-bold text-[#2387C0] mb-6">
                   Our MEP Services
                 </h3>
-                <div className="space-y-4">
-                  <div className="border-l-4 border-[#2387C0] pl-4 py-2">
-                    <h4 className="font-semibold text-gray-900">
-                      Mechanical Systems
-                    </h4>
-                    <p className="text-gray-600">
-                      HVAC, ventilation, and refrigeration
-                    </p>
+
+                {[
+                  [
+                    "Mechanical Systems",
+                    "HVAC, ventilation, and refrigeration",
+                  ],
+                  [
+                    "Electrical Systems",
+                    "Power, lighting, and low voltage systems",
+                  ],
+                  [
+                    "Plumbing Systems",
+                    "Water supply, drainage, and fire protection",
+                  ],
+                  [
+                    "Sustainability",
+                    "Energy-efficient and green building solutions",
+                  ],
+                ].map(([title, desc], i) => (
+                  <div
+                    key={i}
+                    className="border-l-4 border-[#2387C0] pl-4 py-2"
+                  >
+                    <h4 className="font-semibold text-gray-900">{title}</h4>
+                    <p className="text-gray-600">{desc}</p>
                   </div>
-                  <div className="border-l-4 border-[#2387C0] pl-4 py-2">
-                    <h4 className="font-semibold text-gray-900">
-                      Electrical Systems
-                    </h4>
-                    <p className="text-gray-600">
-                      Power, lighting, and low voltage systems
-                    </p>
-                  </div>
-                  <div className="border-l-4 border-[#2387C0] pl-4 py-2">
-                    <h4 className="font-semibold text-gray-900">
-                      Plumbing Systems
-                    </h4>
-                    <p className="text-gray-600">
-                      Water supply, drainage, and fire protection
-                    </p>
-                  </div>
-                  <div className="border-l-4 border-[#2387C0] pl-4 py-2">
-                    <h4 className="font-semibold text-gray-900">
-                      Sustainability
-                    </h4>
-                    <p className="text-gray-600">
-                      Energy-efficient and green building solutions
-                    </p>
-                  </div>
-                </div>
+                ))}
               </div>
             </div>
           </div>

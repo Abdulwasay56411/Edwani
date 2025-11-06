@@ -8,62 +8,62 @@ const OurProjects = () => {
       title: "Yasref Project",
       description:
         "Industrial and infrastructure works supporting one of Saudi Arabia’s leading refinery facilities.",
-      mainImage: "/Projects/c-dustin-91AQt9p4Mo8-unsplash.jpg",
+      mainImage: "/c-dustin-91AQt9p4Mo8-unsplash.jpg",
       galleryImages: [
-        "/Projects/christopher-burns-8KfCR12oeUM-unsplash.jpg",
-        "/Projects/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg",
-        "/Projects/etienne-girardet-sgYamIzhAhg-unsplash.jpg",
+        "/christopher-burns-8KfCR12oeUM-unsplash.jpg",
+        "/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg",
+        "/etienne-girardet-sgYamIzhAhg-unsplash.jpg",
       ],
     },
     {
       title: "Yanbu Tree Plantation",
       description:
         "Large-scale landscaping and greenery development with a focus on sustainable planting.",
-      mainImage: "/Projects/greyson-joralemon-A1g0oeX29ec-unsplash.jpg",
+      mainImage: "/greyson-joralemon-A1g0oeX29ec-unsplash.jpg",
       galleryImages: [
-        "/Projects/guilherme-cunha-4zwozQxDbD4-unsplash.jpg",
-        "/Projects/h-co-3coKbdfnAFg-unsplash.jpg",
-        "/Projects/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg",
+        "/guilherme-cunha-4zwozQxDbD4-unsplash.jpg",
+        "/h-co-3coKbdfnAFg-unsplash.jpg",
+        "/jeriden-villegas-VLPUm5wP5Z0-unsplash.jpg",
       ],
     },
     {
       title: "Riyadh Metro Line Extension",
       description:
         "Civil engineering support and construction of metro line expansion in Riyadh.",
-      mainImage: "/Projects/joe-holland-80zZ1s24Nag-unsplash.jpg",
+      mainImage: "/joe-holland-80zZ1s24Nag-unsplash.jpg",
       galleryImages: [
-        "/Projects/josh-olalde-X1P1_EDNnok-unsplash.jpg",
-        "/Projects/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg",
-        "/Projects/luke-besley-k5l-zbRSPds-unsplash.jpg",
+        "/josh-olalde-X1P1_EDNnok-unsplash.jpg",
+        "/josue-isai-ramos-figueroa-qvBYnMuNJ9A-unsplash.jpg",
+        "/luke-besley-k5l-zbRSPds-unsplash.jpg",
       ],
     },
     {
       title: "Jeddah Waterfront Renovation",
       description:
         "Comprehensive renovation of waterfront recreational and commercial areas.",
-      mainImage: "/Projects/mark-potterton-sNVkn3507Oo-unsplash.jpg",
+      mainImage: "/mark-potterton-sNVkn3507Oo-unsplash.jpg",
       galleryImages: [
-        "/Projects/mark-potterton-sNVkn3507Oo-unsplash.jpg",
-        "/Projects/umit-yildirim-9OB46apMbC4-unsplash.jpg",
+        "/mark-potterton-sNVkn3507Oo-unsplash.jpg",
+        "/umit-yildirim-9OB46apMbC4-unsplash.jpg",
       ],
     },
     {
       title: "Neom Solar Plant",
       description:
         "Development of solar infrastructure for renewable energy production in NEOM.",
-      mainImage: "/Projects/ricardo-gomez-angel-7bzbyafVTYg-unsplash.jpg",
+      mainImage: "/ricardo-gomez-angel-7bzbyafVTYg-unsplash.jpg",
       galleryImages: [
-        "/Projects/saad-salim-PqRvLsjD_TU-unsplash.jpg",
-        "/Projects/shane-mclendon-9jPJrfLTBi0-unsplash.jpg",
+        "/saad-salim-PqRvLsjD_TU-unsplash.jpg",
+        "/shane-mclendon-9jPJrfLTBi0-unsplash.jpg",
       ],
     },
     {
       title: "AlUla Heritage Restoration",
       description:
         "Restoration of historical sites and cultural landmarks in AlUla region.",
-      mainImage: "/Projects/shane-mclendon-9jPJrfLTBi0-unsplash.jpg",
+      mainImage: "/shane-mclendon-9jPJrfLTBi0-unsplash.jpg",
       galleryImages: [
-        "/Projects/shane-mclendon-9jPJrfLTBi0-unsplash.jpg",
+        "/shane-mclendon-9jPJrfLTBi0-unsplash.jpg",
         "/projectlast.jpg",
       ],
     },

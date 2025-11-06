@@ -6,16 +6,16 @@ import OurProjects from "../components/OurProjects";
 import Testimonials from "../components/Testinomials";
 import BuildSection from "../components/BuildSection";
 import ContactSection from "../components/ContactSection";
-import Navbar from "../components/Navbar";
 import Achievements from "../components/Achievements";
 import MechanicalServices from "../components/MechanicalServices";
+import TransparentNavbar from "../components/TransparentNavbar";
 
 const Home = () => {
   return (
     <div className="flex flex-col">
-      <Navbar />
+      <TransparentNavbar />
       {/* Hero Section */}
-      <section className="pt-[110px] md:pt-[130px] md:pb-12">
+      <section className="pt-[150px] md:pt-[130px] md:pb-12">
         <HeroSection />
       </section>
 

@@ -138,11 +138,14 @@ const ContactSection = () => {
     },
   ];
 
-  // Map coordinates for Yanbu, Saudi Arabia
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3710.755235416849!2d38.05821527599629!3d24.089587278816515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e79f9f374c59a7%3A0x6fd64387b3c6c2f6!2sYanbu%2C%20Saudi%20Arabia!5e0!3m2!1sen!2s!4v169876543210!5m2!1sen!2s`;
+  // Updated Map coordinates for Yanbu Industrial City with precise location
+  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d118758.394278091!2d38.14855969999999!3d23.9943997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e79f9f374c59a7%3A0x6fd64387b3c6c2f6!2sYanbu%20Industrial%20City!5e0!3m2!1sen!2ssa!4v1700000000000!5m2!1sen!2ssa`;
 
   const handleGetDirections = () => {
-    window.open("https://maps.google.com/?q=Yanbu,Saudi+Arabia", "_blank");
+    window.open(
+      "https://maps.google.com/?q=Yanbu+Industrial+City,Saudi+Arabia",
+      "_blank"
+    );
   };
 
   return (
@@ -228,7 +231,8 @@ const ContactSection = () => {
                 >
                   <div className="flex items-center gap-4">
                     <div className="p-3 bg-[#2387C0] rounded-lg flex-shrink-0">
-                      <FaPhone className="text-white text-xl" />
+                      {/* Rotated Phone Icon */}
+                      <FaPhone className="text-white text-xl transform rotate-90" />
                     </div>
                     <div className="min-w-0 flex-1">
                       <p className="text-gray-600 text-sm">Phone</p>
@@ -264,18 +268,22 @@ const ContactSection = () => {
                       Headquarters
                     </p>
                     <p className="text-gray-600 leading-relaxed text-sm sm:text-base">
-                      Yanbu, KSA. P.O. Box 31182,
+                      Yanbu Industrial City
                       <br />
-                      Kingdom of Saudi Arabia.
+                      P.O. Box 31182, Yanbu 41912
+                      <br />
+                      Kingdom of Saudi Arabia
                     </p>
                   </div>
                 </div>
 
                 <motion.button
+                  onClick={handleGetDirections}
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full px-6 py-3 bg-gradient-to-r from-[#2387C0] to-[#186a99] text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 text-sm sm:text-base"
+                  className="w-full px-6 py-3 bg-gradient-to-r from-[#2387C0] to-[#186a99] text-white rounded-xl font-semibold shadow-lg hover:shadow-xl transition-all duration-300 text-sm sm:text-base flex items-center justify-center gap-2"
                 >
+                  <FaDirections className="text-sm" />
                   Get Directions
                 </motion.button>
               </motion.div>
@@ -377,7 +385,9 @@ const ContactSection = () => {
                     >
                       <div className="absolute left-4 top-1/2 transform -translate-y-1/2">
                         <field.icon
-                          className={`text-[#2387C0] text-lg sm:text-xl`}
+                          className={`text-[#2387C0] text-lg sm:text-xl ${
+                            field.name === "phone" ? "transform rotate-90" : ""
+                          }`}
                         />
                       </div>
                       <input
@@ -552,7 +562,7 @@ const ContactSection = () => {
                         Find Us Here
                       </h3>
                       <p className="text-blue-100 text-sm sm:text-base">
-                        Visit our headquarters in Yanbu, Saudi Arabia
+                        Visit our headquarters in Yanbu Industrial City
                       </p>
                     </div>
                   </div>
@@ -598,7 +608,7 @@ const ContactSection = () => {
                         </div>
                         <div className="flex-1 min-w-0">
                           <h4 className="font-bold text-gray-900 text-sm sm:text-base mb-1">
-                            Edwani Contracting 
+                            Edwani Contracting
                           </h4>
                           <p className="text-gray-600 text-xs sm:text-sm leading-relaxed">
                             Yanbu Industrial City

@@ -105,39 +105,68 @@ const SafetyStandards = () => {
               </div>
             </motion.div>
 
-            {/* Safety Features Grid */}
+            {/* ==== UPDATED SAFETY FEATURES - STYLED LIKE SPECIALIZATION SECTION ==== */}
             <motion.div
-              className="grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4 w-full mt-4 lg:mt-6"
+              className="w-full"
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.4 }}
               viewport={{ once: true }}
             >
-              {safetyFeatures.map((feature, index) => (
-                <motion.div
-                  key={index}
-                  className="group relative p-3 lg:p-4 rounded-xl bg-white/80 backdrop-blur-sm border border-gray-200/60 hover:border-[#2387C0]/30 transition-all duration-300 hover:shadow-lg hover:scale-[1.02]"
-                  whileHover={{ y: -2 }}
-                  transition={{ duration: 0.2 }}
-                >
-                  <div className="flex items-start gap-3">
-                    <div className="p-2 bg-gradient-to-br from-[#2387C0] to-[#1970a2] rounded-lg group-hover:scale-105 transition-transform duration-300 flex-shrink-0">
-                      <feature.icon className="text-white text-base lg:text-lg" />
+              {/* Mobile Layout - Grid like SpecializationSection */}
+              <div className="block lg:hidden grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6">
+                {safetyFeatures.map((item, index) => (
+                  <motion.div
+                    key={index}
+                    className="text-center p-4 sm:p-5 rounded-lg bg-white/80 backdrop-blur-sm border border-gray-200/60 hover:bg-[#2387C0] hover:text-white transition-all duration-300 group cursor-pointer transform hover:-translate-y-2 shadow-md hover:shadow-xl"
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 0.5, delay: index * 0.1 }}
+                    viewport={{ once: true }}
+                  >
+                    <div className="w-12 h-12 sm:w-14 sm:h-14 bg-[#2387C0] rounded-full flex items-center justify-center mx-auto mb-3 sm:mb-4 group-hover:bg-white group-hover:scale-110 transition-all duration-300">
+                      <div className="text-white group-hover:text-[#2387C0]">
+                        <item.icon className="text-xl sm:text-lg" />
+                      </div>
                     </div>
-                    <div className="flex-1 min-w-0">
-                      <h3 className="text-sm lg:text-base font-semibold text-gray-900 mb-1 group-hover:text-[#2387C0] transition-colors duration-300">
-                        {feature.title}
-                      </h3>
-                      <p className="text-xs lg:text-sm text-gray-600 font-normal leading-relaxed">
-                        {feature.description}
-                      </p>
-                    </div>
-                  </div>
+                    <h4 className="font-semibold text-sm sm:text-base mb-2 sm:mb-3">
+                      {item.title}
+                    </h4>
+                    <p className="text-xs sm:text-sm text-gray-600 group-hover:text-white leading-relaxed">
+                      {item.description}
+                    </p>
+                  </motion.div>
+                ))}
+              </div>
 
-                  {/* Hover effect line */}
-                  <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#2387C0] to-blue-400 group-hover:w-full transition-all duration-400"></div>
-                </motion.div>
-              ))}
+              {/* Desktop Layout - Original Design */}
+              <div className="hidden lg:grid grid-cols-1 sm:grid-cols-2 gap-3 lg:gap-4 w-full">
+                {safetyFeatures.map((feature, index) => (
+                  <motion.div
+                    key={index}
+                    className="group relative p-3 lg:p-4 rounded-xl bg-white/80 backdrop-blur-sm border border-gray-200/60 hover:border-[#2387C0]/30 transition-all duration-300 hover:shadow-lg hover:scale-[1.02]"
+                    whileHover={{ y: -2 }}
+                    transition={{ duration: 0.2 }}
+                  >
+                    <div className="flex items-start gap-3">
+                      <div className="p-2 bg-gradient-to-br from-[#2387C0] to-[#1970a2] rounded-lg group-hover:scale-105 transition-transform duration-300 flex-shrink-0">
+                        <feature.icon className="text-white text-base lg:text-lg" />
+                      </div>
+                      <div className="flex-1 min-w-0">
+                        <h3 className="text-sm lg:text-base font-semibold text-gray-900 mb-1 group-hover:text-[#2387C0] transition-colors duration-300">
+                          {feature.title}
+                        </h3>
+                        <p className="text-xs lg:text-sm text-gray-600 font-normal leading-relaxed">
+                          {feature.description}
+                        </p>
+                      </div>
+                    </div>
+
+                    {/* Hover effect line */}
+                    <div className="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-[#2387C0] to-blue-400 group-hover:w-full transition-all duration-400"></div>
+                  </motion.div>
+                ))}
+              </div>
             </motion.div>
 
             {/* Safety Certifications */}

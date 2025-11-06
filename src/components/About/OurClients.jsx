@@ -9,77 +9,77 @@ const OurClients = () => {
     {
       id: 1,
       name: "Royal Commission for Jubail and Yanbu",
-      logo: "/logo/logo1.png",
+      logo: "/logo1.png",
     },
     {
       id: 2,
       name: "Saudi Aramco",
-      logo: "/logo/logo2.png",
+      logo: "/logo2.png",
     },
     {
       id: 3,
       name: "NEOM",
-      logo: "/logo/3.png",
+      logo: "/3.png",
     },
     {
       id: 4,
       name: "SABIC",
-      logo: "/logo/4.png",
+      logo: "/4.png",
     },
     {
       id: 5,
       name: "Ministry of Defense",
-      logo: "/logo/15.png",
+      logo: "/15.png",
     },
     {
       id: 6,
       name: "Ministry of Interior",
-      logo: "/logo/13.png",
+      logo: "/13.png",
     },
     {
       id: 7,
       name: "Red Sea Global",
-      logo: "/logo/7.png",
+      logo: "/7.png",
     },
     {
       id: 8,
       name: "Diriyah Gate Development Authority",
-      logo: "/logo/8.png",
+      logo: "/8.png",
     },
     {
       id: 9,
       name: "Royal Commission for AlUla",
-      logo: "/logo/9.png",
+      logo: "/9.png",
     },
     {
       id: 10,
       name: "Public Investment Fund",
-      logo: "/logo/10.png",
+      logo: "/10.png",
     },
     {
       id: 11,
       name: "Ministry of Housing",
-      logo: "/logo/12.png",
+      logo: "/12.png",
     },
     {
       id: 12,
       name: "Saudi Electricity Company",
-      logo: "/logo/14.png",
+      logo: "/14.png",
     },
     {
       id: 13,
       name: "National Water Company",
-      logo: "/logo/15.png",
+      logo: "/15.png",
     },
     {
       id: 14,
       name: "Saudi Arabian Airlines",
-      logo: "/logo/2.png",
+      logo: "/2.png",
     },
     {
       id: 15,
       name: "King Abdullah University",
-      logo: "/logo/1.png",
+      logo: "/1.png",
     },
   ];
 

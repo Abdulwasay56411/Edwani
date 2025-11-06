@@ -84,7 +84,7 @@ const About = () => {
         {/* Left Secondary Image - Elevated Design */}
         <motion.div
           variants={imageVariant(0.3)}
-          className="absolute bottom-[18%] left-0 w-[58%] h-[42%] z-20 group"
+          className="absolute bottom-[12%] left-0 w-[58%] h-[42%] z-20 group"
         >
           <div className="relative w-full h-full">
             <div className="absolute inset-0 bg-gradient-to-tr from-sky-400/5 to-blue-600/8 rounded-3xl" />
@@ -175,8 +175,8 @@ const About = () => {
           </p>
 
           <p className="text-gray-600 text-sm md:text-base leading-7 md:leading-8 font-light italic border-t border-blue-100/50 pt-4 md:pt-6">
-            "Regardless of project complexity or geographical challenges,
-            Edwani contracting Establishment delivers exceptional results through our
+            "Regardless of project complexity or geographical challenges, Edwani
+            contracting Establishment delivers exceptional results through our
             unique combination of technical knowledge, skilled workforce,
             extensive experience and unwavering commitment to client
             satisfaction."

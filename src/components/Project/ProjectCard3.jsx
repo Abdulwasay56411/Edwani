@@ -7,7 +7,7 @@ export default function ProjectCard3() {
       title: "Yanbu Tree Plantation Project",
       description:
         "Large-scale landscaping and greenery development with a focus on sustainable planting and environmental conservation in Yanbu industrial city.",
-      image: "/Projects/c-dustin-91AQt9p4Mo8-unsplash.jpg",
+      image: "/c-dustin-91AQt9p4Mo8-unsplash.jpg",
       position: "left",
       category: "Landscaping",
       duration: "24 Months",
@@ -17,7 +17,7 @@ export default function ProjectCard3() {
       title: "Date Palms Development",
       description:
         "Comprehensive date palm cultivation project featuring modern agricultural techniques and sustainable farming practices.",
-      image: "/Projects/christopher-burns-8KfCR12oeUM-unsplash.jpg",
+      image: "/christopher-burns-8KfCR12oeUM-unsplash.jpg",
       position: "right",
       category: "Agriculture",
       duration: "18 Months",
@@ -27,7 +27,7 @@ export default function ProjectCard3() {
       title: "RJ Mastoura Project",
       description:
         "Modern residential complex with innovative architectural design and premium amenities for contemporary living.",
-      image: "/Projects/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg",
+      image: "/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg",
       position: "left",
       category: "Residential",
       duration: "36 Months",
@@ -37,7 +37,7 @@ export default function ProjectCard3() {
       title: "RC Park Project",
       description:
         "Urban park development featuring recreational facilities, green spaces, and community gathering areas.",
-      image: "/Projects/etienne-girardet-sgYamIzhAhg-unsplash.jpg",
+      image: "/etienne-girardet-sgYamIzhAhg-unsplash.jpg",
       position: "right",
       category: "Public Space",
       duration: "20 Months",
