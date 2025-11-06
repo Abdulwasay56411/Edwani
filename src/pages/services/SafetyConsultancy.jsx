@@ -58,21 +58,8 @@ const SafetyConsultancy = () => {
           </motion.div>
         </div>
       </div>
-      <div className="min-h-screen bg-gray-50 pt-24">
+      <div className=" bg-gray-50 ">
         {/* Hero Section */}
-        <div className="bg-[#2387C0] text-white py-20">
-          <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Safety Consultancy
-              </h1>
-              <p className="text-xl md:text-2xl opacity-90">
-                Comprehensive Safety Solutions for Workplace Protection and
-                Compliance
-              </p>
-            </div>
-          </div>
-        </div>
 
         {/* Content Section */}
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-16">
