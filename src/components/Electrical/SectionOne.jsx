@@ -42,7 +42,7 @@ const SectionOne = () => {
                   <div className="relative group">
                     <img
                       className="w-full h-36 sm:h-44 md:h-48 rounded-xl sm:rounded-2xl object-cover shadow-md sm:shadow-lg group-hover:shadow-xl transition-all duration-300"
-                      src="/Projects/c-dustin-91AQt9p4Mo8-unsplash.jpg"
+                      src="/c-dustin-91AQt9p4Mo8-unsplash.jpg"
                       alt="Main electrical project"
                     />
                     <div className="absolute inset-0 bg-blue-900 opacity-0 group-hover:opacity-10 rounded-xl sm:rounded-2xl transition-opacity duration-300"></div>
@@ -50,7 +50,7 @@ const SectionOne = () => {
                   <div className="relative group">
                     <img
                       className="w-full h-28 sm:h-32 md:h-36 rounded-xl sm:rounded-2xl object-cover shadow-md sm:shadow-lg border-2 sm:border-4 border-white group-hover:shadow-xl transition-all duration-300"
-                      src="/Projects/etienne-girardet-sgYamIzhAhg-unsplash.jpg"
+                      src="/etienne-girardet-sgYamIzhAhg-unsplash.jpg"
                       alt="Residential electrical service"
                     />
                     <div className="absolute inset-0 bg-blue-900 opacity-0 group-hover:opacity-10 rounded-xl sm:rounded-2xl transition-opacity duration-300"></div>
@@ -62,7 +62,7 @@ const SectionOne = () => {
                   <div className="relative group">
                     <img
                       className="w-full h-28 sm:h-32 md:h-36 rounded-xl sm:rounded-2xl object-cover shadow-md sm:shadow-lg border-2 sm:border-4 border-white group-hover:shadow-xl transition-all duration-300"
-                      src="/Projects/christopher-burns-8KfCR12oeUM-unsplash.jpg"
+                      src="/christopher-burns-8KfCR12oeUM-unsplash.jpg"
                       alt="Commercial electrical installation"
                     />
                     <div className="absolute inset-0 bg-blue-900 opacity-0 group-hover:opacity-10 rounded-xl sm:rounded-2xl transition-opacity duration-300"></div>
@@ -70,7 +70,7 @@ const SectionOne = () => {
                   <div className="relative group">
                     <img
                       className="w-full h-36 sm:h-44 md:h-48 rounded-xl sm:rounded-2xl object-cover shadow-md sm:shadow-lg group-hover:shadow-xl transition-all duration-300"
-                      src="/Projects/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg"
+                      src="/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg"
                       alt="Professional electrical testing"
                     />
                     <div className="absolute inset-0 bg-blue-900 opacity-0 group-hover:opacity-10 rounded-xl sm:rounded-2xl transition-opacity duration-300"></div>
@@ -86,25 +86,25 @@ const SectionOne = () => {
 
               <img
                 className="absolute left-[8%] top-[5%] w-[65%] h-[70%] rounded-[32px] object-cover shadow-2xl z-10 hover:scale-105 transition-transform duration-300"
-                src="/Projects/c-dustin-91AQt9p4Mo8-unsplash.jpg"
+                src="/c-dustin-91AQt9p4Mo8-unsplash.jpg"
                 alt="Main electrical project"
               />
 
               <img
                 className="absolute top-[2%] right-[5%] w-[40%] h-[45%] rounded-[28px] object-cover shadow-xl border-8 border-white z-20 hover:scale-105 transition-transform duration-300"
-                src="/Projects/christopher-burns-8KfCR12oeUM-unsplash.jpg"
+                src="/christopher-burns-8KfCR12oeUM-unsplash.jpg"
                 alt="Electrical installation work"
               />
 
               <img
                 className="absolute bottom-[5%] right-[12%] w-[38%] h-[42%] rounded-[28px] object-cover shadow-xl border-8 border-white z-20 hover:scale-105 transition-transform duration-300"
-                src="/Projects/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg"
+                src="/daniel-mccullough-HtBlQdxfG9k-unsplash.jpg"
                 alt="Commercial electrical project"
               />
 
               <img
                 className="absolute bottom-[15%] left-[3%] w-[35%] h-[38%] rounded-[28px] object-cover shadow-xl border-8 border-white z-20 hover:scale-105 transition-transform duration-300"
-                src="/Projects/etienne-girardet-sgYamIzhAhg-unsplash.jpg"
+                src="/etienne-girardet-sgYamIzhAhg-unsplash.jpg"
                 alt="Residential electrical service"
               />
             </div>

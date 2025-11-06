@@ -76,7 +76,9 @@ const WhyChooseUs = () => {
             viewport={{ once: true }}
           >
             Why Choose{" "}
-            <span className="text-[#2387C0] block sm:inline">Edwani Contracting</span>
+            <span className="text-[#2387C0] block sm:inline">
+              Edwani Contracting
+            </span>
           </motion.h1>
 
           <motion.div
@@ -118,7 +120,7 @@ const WhyChooseUs = () => {
               >
                 <img
                   className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700"
-                  src="/why3.jpg"
+                  src="/abdulwasay.png"
                   alt="Main construction project by Edwani Contracting"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/30 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-500" />
@@ -138,7 +140,7 @@ const WhyChooseUs = () => {
               >
                 <img
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-                  src="/why1.jpg"
+                  src="/talha.png"
                   alt="Construction detail and precision work"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-[#2387C0]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
@@ -155,7 +157,7 @@ const WhyChooseUs = () => {
               >
                 <img
                   className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-500"
-                  src="/why2.jpg"
+                  src="/wasiq.png"
                   alt="Modern equipment and machinery"
                 />
                 <div className="absolute inset-0 bg-gradient-to-br from-[#2387C0]/10 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />

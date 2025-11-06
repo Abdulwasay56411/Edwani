@@ -92,9 +92,9 @@ const QualityPolicy = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center">
             <p className="text-lg sm:text-xl md:text-2xl text-gray-700 mb-6 md:mb-8 leading-relaxed">
-              At Al-Edwani, we are all dedicated to this mission. Our reputation
-              depends on teamwork and consistent client satisfaction, as the
-              most important person in our business is our:
+              At Edwani Contracting, we are all dedicated to this mission. Our
+              reputation depends on teamwork and consistent client satisfaction,
+              as the most important person in our business is our:
             </p>
 
             <div className="text-center mb-8 md:mb-12">
@@ -125,7 +125,7 @@ const QualityPolicy = () => {
                   Collaborative excellence across all departments
                 </p>
               </div>
-              
+
               <div className="text-center">
                 <div className="w-16 h-16 mx-auto mb-4 bg-blue-50 rounded-full flex items-center justify-center">
                   <FaHandshake

@@ -8,7 +8,7 @@ const Hardscaping = () => {
       <PageHeader
         title="Hardscaping Services"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/uzair.png"
       />
 
       {/* ✅ Content Section (unchanged) */}

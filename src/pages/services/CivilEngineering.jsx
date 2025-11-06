@@ -10,7 +10,7 @@ const CivilEngineering = () => {
       <PageHeader
         title="Civil Engineering"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/uzair.png"
       />
 
       <div className="bg-gray-50">

@@ -16,7 +16,7 @@ const Customers = () => {
       <PageHeader
         title="Our Customers"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/bgservices.png"
         tagline="Comprehensive Solutions for Your Construction Needs"
       />
 

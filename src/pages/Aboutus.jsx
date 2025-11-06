@@ -22,7 +22,7 @@ const Aboutus = () => {
       <PageHeader
         title="About Us"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/bgservices.png"
       />
 
       {/* ===== Sections Below ===== */}

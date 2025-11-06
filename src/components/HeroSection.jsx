@@ -340,7 +340,7 @@ const HeroSection = () => {
                 transition={{ delay: 0.5, duration: 0.8 }}
               >
                 <motion.img
-                  src="/hero3.png"
+                  src="/homehero1.png"
                   alt="Main Construction Project"
                   className="w-56 h-56 object-cover rounded-2xl shadow-lg"
                   animate={{
@@ -357,25 +357,25 @@ const HeroSection = () => {
               {/* Peripheral Images - Optimized for Tablet/Small Laptop */}
               {[
                 {
-                  src: "/heromob1.jpg",
+                  src: "/homehero3.jpg",
                   class: "top-8 left-8 w-28 h-28",
                   rotate: -5,
                   delay: 0.7,
                 },
                 {
-                  src: "/heromob2.jpg",
+                  src: "/homehero2.png",
                   class: "top-8 right-8 w-28 h-28",
                   rotate: 3,
                   delay: 0.9,
                 },
                 {
-                  src: "/heromob3.jpg",
+                  src: "/hero4.png",
                   class: "bottom-8 left-8 w-28 h-28",
                   rotate: -3,
                   delay: 1.1,
                 },
                 {
-                  src: "/hero4.png",
+                  src: "/homehero4.png",
                   class: "bottom-8 right-8 w-28 h-28",
                   rotate: 4,
                   delay: 1.3,
@@ -484,7 +484,7 @@ const HeroSection = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
             >
               <motion.img
-                src="/hero3.png"
+                src="/homehero1.png"
                 alt="Main Construction Project"
                 className="w-56 h-56 object-cover rounded-2xl shadow-lg"
                 animate={{
@@ -501,25 +501,25 @@ const HeroSection = () => {
             {/* Beautifully Aligned Peripheral Images - SAME SIZE, EQUAL CORNERS */}
             {[
               {
-                src: "/heromob1.jpg",
+                src: "/homehero3.jpg",
                 class: "top-4 left-4 w-20 h-20",
                 rotate: -5,
                 delay: 0.7,
               },
               {
-                src: "/heromob2.jpg",
+                src: "/homehero2.png",
                 class: "top-4 right-4 w-20 h-20",
                 rotate: 3,
                 delay: 0.9,
               },
               {
-                src: "/heromob3.jpg",
+                src: "/hero4.png",
                 class: "bottom-4 left-4 w-20 h-20",
                 rotate: -3,
                 delay: 1.1,
               },
               {
-                src: "/hero4.png",
+                src: "/homehero4.png",
                 class: "bottom-4 right-4 w-20 h-20",
                 rotate: 4,
                 delay: 1.3,

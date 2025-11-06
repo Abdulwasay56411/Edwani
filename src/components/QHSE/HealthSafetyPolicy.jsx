@@ -99,9 +99,9 @@ const HealthSafetyPolicy = () => {
           </h1>
           <div className="w-16 sm:w-20 h-1 bg-[#2387C0] mx-auto mb-4 md:mb-6"></div>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Edwani Contracting conducts all activities in a manner that
-            ensures the safety, health, and security of its employees while
-            protecting company assets.
+            Edwani Contracting conducts all activities in a manner that ensures
+            the safety, health, and security of its employees while protecting
+            company assets.
           </p>
         </div>
       </section>
@@ -174,8 +174,8 @@ const HealthSafetyPolicy = () => {
                 Safety First, Always
               </h3>
               <p className="text-base md:text-lg leading-relaxed opacity-95">
-                At Al-Edwani, we believe that every task, no matter how small,
-                deserves the highest level of safety consideration. Our
+                At Edwani Contracting, we believe that every task, no matter how
+                small, deserves the highest level of safety consideration. Our
                 commitment to zero incidents reflects our dedication to
                 protecting our most valuable asset: our people.
               </p>

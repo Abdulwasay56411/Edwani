@@ -8,7 +8,7 @@ const EquipmentRental = () => {
       <PageHeader
         title="Equipment Rental"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/uzair.png"
       />
 
       {/* ✅ Content Section (unchanged) */}

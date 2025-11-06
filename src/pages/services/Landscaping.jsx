@@ -8,7 +8,7 @@ const Landscaping = () => {
       <PageHeader
         title="Landscaping Services"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/uzair.png"
       />
 
       {/* ✅ Content Section */}

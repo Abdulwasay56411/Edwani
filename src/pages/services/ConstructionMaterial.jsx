@@ -8,7 +8,7 @@ const ConstructionMaterial = () => {
       <PageHeader
         title="Construction Material Supply"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/uzair.png"
       />
 
       {/* ✅ Content Section (unchanged) */}

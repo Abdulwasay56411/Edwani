@@ -19,7 +19,7 @@ const Services = () => {
       <PageHeader
         title="Our Services"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/uzair.png"
       />
 
       {/* Sections */}

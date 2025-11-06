@@ -8,7 +8,7 @@ const MEPConsultancy = () => {
       <PageHeader
         title="MEP Consultancy"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/uzair.png"
       />
 
       {/* ✅ Content Section (unchanged) */}

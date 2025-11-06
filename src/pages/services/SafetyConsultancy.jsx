@@ -8,7 +8,7 @@ const SafetyConsultancy = () => {
       <PageHeader
         title="Safety Consultancy"
         subtitle="Edwani Contracting"
-        image="/bgservices.jpg"
+        image="/uzair.png"
       />
 
       {/* ✅ Content Section (unchanged) */}
