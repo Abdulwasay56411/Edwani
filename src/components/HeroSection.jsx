@@ -60,11 +60,11 @@ const HeroSection = () => {
     <section className="relative bg-[#F8FAFB] overflow-hidden w-full">
       {/* Animated Background */}
       <motion.img
-        src="/Vector (1).png"
+        src="/background hero.png"
         alt="Background vector"
-        className="absolute right-0 top-0 h-full object-contain pointer-events-none select-none"
+        className="absolute right-0 top-0 h-full bg-cover bg-center object-contain pointer-events-none select-none"
         initial={{ opacity: 0 }}
-        animate={{ opacity: 0.6 }}
+        animate={{ opacity: 0.2 }}
         transition={{ duration: 2 }}
       />
 

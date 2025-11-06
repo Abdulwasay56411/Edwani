@@ -106,7 +106,7 @@ const TransparentNavbar = () => {
       "
     >
       {/* ===== Desktop Navbar ===== */}
-      <nav className="hidden xl:flex items-center justify-between bg-white/90 backdrop-blur-md rounded-[16px] px-5 md:px-8 py-2 shadow-sm">
+      <nav className="hidden xl:flex items-center justify-between bg-white/90 backdrop-blur-md rounded-[16px] px-5 md:px-4 py-2 shadow-sm">
         {/* Logo (clickable) */}
         <div
           onClick={() => navigate("/")}
