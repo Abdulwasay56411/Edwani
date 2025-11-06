@@ -24,6 +24,13 @@ import Projects2 from "./pages/Projects2";
 import Projects3 from "./pages/Projects3";
 import ConstructionServices from "./pages/ConstructionServices";
 import MechanicalServices from "./pages/MechanicalServices";
+import MEPConsultancy from "./pages/services/MepConsultancy";
+import Landscaping from "./pages/services/Landscaping";
+import Hardscaping from "./pages/services/Hardscaping";
+import CivilEngineering from "./pages/services/CivilEngineering";
+import EquipmentRental from "./pages/services/EquipmentRental";
+import ConstructionMaterial from "./pages/services/ConstructionMaterial";
+import SafetyConsultancy from "./pages/services/SafetyConsultancy";
 
 const App = () => {
   const [loading, setLoading] = useState(true);
@@ -46,14 +53,19 @@ const App = () => {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<Aboutus />} />
             <Route path="/services" element={<Services />} />
+            <Route path="/services/construction" element={<MEPConsultancy />} />
+
+            <Route path="/services/landscaping" element={<Landscaping />} />
+            <Route path="/services/hardscaping" element={<Hardscaping />} />
+            <Route path="/services/civil" element={<CivilEngineering />} />
+
+            <Route path="/services/equipment" element={<EquipmentRental />} />
             <Route
-              path="/services/construction"
-              element={<ConstructionServices />}
+              path="/services/constructionmaterial"
+              element={<ConstructionMaterial />}
             />
-            <Route
-              path="/services/mechanical"
-              element={<MechanicalServices />}
-            />
+            <Route path="/services/safety" element={<SafetyConsultancy />} />
+
             <Route path="/project" element={<Projects />} />
             <Route
               path="/projects/residential-industrial"

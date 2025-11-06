@@ -19,12 +19,18 @@ const Navbar = () => {
   const NavLinks = {
     Services: [
       { name: "MEP Consultancy", path: "/services/construction" },
-      { name: "Landscaping", path: "/services/mechanical" },
-      { name: "Hardscaping", path: "/services/mechanical" },
-      { name: "Civil", path: "/services/mechanical" },
-      { name: "Equipment Rental & Maintenance Services", path: "/services/mechanical" },
-      { name: "Construction Material Supply", path: "/services/mechanical" },
-      { name: "Safety Consultancy", path: "/services/mechanical" },
+      { name: "Landscaping", path: "/services/landscaping" },
+      { name: "Hardscaping", path: "/services/hardscaping" },
+      { name: "Civil", path: "/services/civil" },
+      {
+        name: "Equipment Rental & Maintenance Services",
+        path: "/services/equipment",
+      },
+      {
+        name: "Construction Material Supply",
+        path: "/services/constructionmaterial",
+      },
+      { name: "Safety Consultancy", path: "/services/safety" },
     ],
     Projects: [
       {
@@ -119,8 +125,10 @@ const Navbar = () => {
             alt="Edwani Contracting"
           />
           <div>
-          <h1 className="text-2xl font-bold text-[#2387C0]">Edwani Contracting</h1>
-          <p className="text-sm text-[#858585] font-medium">Construction</p>
+            <h1 className="text-2xl font-bold text-[#2387C0]">
+              Edwani Contracting
+            </h1>
+            <p className="text-sm text-[#858585] font-medium">Construction</p>
           </div>
         </div>
 
@@ -227,7 +235,9 @@ const Navbar = () => {
             alt="Edwani contracting"
             className="cursor-pointer"
           />
-          <h1 className="text-[10px] sm:text-sm uppercase font-bold text-[#2387C0]">Edwani Contracting</h1>
+          <h1 className="text-[10px] sm:text-sm uppercase font-bold text-[#2387C0]">
+            Edwani Contracting
+          </h1>
         </div>
 
         <button
