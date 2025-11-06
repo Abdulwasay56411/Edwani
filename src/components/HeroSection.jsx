@@ -62,7 +62,7 @@ const HeroSection = () => {
       <motion.img
         src="/background hero.png"
         alt="Background vector"
-        className="absolute right-0 top-0 h-full bg-cover bg-center object-contain pointer-events-none select-none"
+        className="absolute right-0 top-0  bg-cover object-cover pointer-events-none select-none"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.2 }}
         transition={{ duration: 2 }}
