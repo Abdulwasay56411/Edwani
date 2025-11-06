@@ -117,7 +117,9 @@ const Section2 = () => {
               </div>
 
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                <span className="relative inline-block">Edwani Contracting</span>
+                <span className="relative inline-block">
+                  Edwani Contracting
+                </span>
                 <br />
               </h2>
             </motion.div>
@@ -194,7 +196,7 @@ const Section2 = () => {
               viewport={{ once: true }}
             >
               <span className="text-base sm:text-lg font-bold text-gray-900 text-center lg:text-left">
-                Mohaisin Ibrahim Taama Al-Edwani
+                Mohaisin Ibrahim Taama Edwani
               </span>
               <span className="text-sm sm:text-base text-gray-600 font-medium text-center lg:text-left">
                 General Manager

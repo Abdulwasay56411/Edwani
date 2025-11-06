@@ -113,22 +113,53 @@ const OurClients = () => {
     },
   };
 
+  const fadeUp = {
+    hidden: { opacity: 0, y: 20 },
+    visible: {
+      opacity: 1,
+      y: 0,
+      transition: {
+        duration: 0.6,
+        ease: "easeOut",
+      },
+    },
+  };
+
   return (
     <section className="w-full bg-white py-12 sm:py-16 lg:py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <motion.div
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true }}
+          className="text-center mb-8 sm:mb-12"
+        >
+          <div className="flex flex-col items-center justify-center space-y-4 mb-6">
+            <div className="w-8 md:w-12 h-0.5 bg-gradient-to-r from-[#2387C0] to-sky-400" />
+            <motion.span
+              className="text-[#2387C0] text-sm md:text-base font-semibold tracking-widest uppercase
+                         bg-blue-50 px-3 md:px-4 py-1.5 md:py-2 rounded-full border border-blue-100 -mt-1"
+              variants={fadeUp}
+            >
+              Our Valued Customers
+            </motion.span>
+          </div>
+        </motion.div>
+
+        <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="text-center mb-12 sm:mb-16 lg:mb-20"
+          className="text-center mb-20"
         >
-          <p className="text-lg sm:text-xl lg:text-xl text-gray-600 max-w-3xl mx-auto px-4 sm:px-0">
+          <p className="text-lg sm:text-xl lg:text-xl text-gray-600 max-w-3xl mx-auto px-4 sm:px-0 -mt-6">
             Trusted by industry leaders and government organizations across
             Saudi Arabia
           </p>
         </motion.div>
+
         {/* Clients Grid */}
         <motion.div
           variants={containerVariants}
