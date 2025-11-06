@@ -152,7 +152,6 @@ const About = () => {
             </span>
           </motion.h2>
         </motion.div>
-
         {/* Premium Content Blocks */}
         <motion.div className="space-y-6 md:space-y-8 w-full" variants={fadeUp}>
           <div className="relative">

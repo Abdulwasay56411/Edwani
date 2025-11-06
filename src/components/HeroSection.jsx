@@ -62,7 +62,7 @@ const HeroSection = () => {
       <motion.img
         src="/background hero.png"
         alt="Background vector"
-        className="absolute right-0 top-0  bg-cover object-cover pointer-events-none select-none"
+        className="absolute right-0 top-0 bg-cover  object-cover pointer-events-none select-none"
         initial={{ opacity: 0 }}
         animate={{ opacity: 0.2 }}
         transition={{ duration: 2 }}
@@ -96,7 +96,7 @@ const HeroSection = () => {
             </div>
 
             <motion.h1
-              className="text-gray-900 text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold leading-[1.15]
+              className="text-gray-900 text-4xl sm:text-5xl md:text-6xl xl:text-7xl font-bold leading-[1.07]
                          text-center xl:text-left w-full"
               variants={fadeUp}
             >
@@ -116,7 +116,7 @@ const HeroSection = () => {
 
           {/* Premium Buttons */}
           <motion.div
-            className="flex flex-col sm:flex-row gap-4 w-full pt-4"
+            className="flex flex-col sm:flex-row gap-4 w-full pt-2"
             variants={fadeUp}
           >
             <motion.button

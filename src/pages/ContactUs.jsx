@@ -35,7 +35,7 @@ const ContactUs = () => {
               </h2>
 
               <p className="text-stone-900 font-semibold text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl leading-snug mt-2 break-words">
-                Al - Edward Establishment
+              Edwani Contracting 
               </p>
             </div>
           </div>

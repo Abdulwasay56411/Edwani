@@ -56,7 +56,7 @@ const MechanicalServices = () => {
                 transition={{ delay: 0.6, duration: 0.8 }}
                 className="text-stone-900 font-semibold text-xs sm:text-sm md:text-lg lg:text-xl xl:text-2xl leading-snug mt-2 break-words"
               >
-                Al - Edwani Establishment
+                 Edwani Contracting 
               </motion.p>
             </div>
           </motion.div>
