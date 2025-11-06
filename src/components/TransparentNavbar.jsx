@@ -116,7 +116,7 @@ const TransparentNavbar = () => {
     <div className="w-full bg-transparent fixed top-0 left-0 z-[1000]">
       {/* Enhanced Top Links Bar - Professional Mobile Design */}
       <div className="w-full bg-gradient-to-r from-[#2387C0] to-[#2a95d6] py-2 px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-        <div className="w-full ">
+        <div className="w-full">
           {/* Desktop & Tablet Top Links */}
           <div className="hidden md:flex justify-between items-center text-white">
             {/* Left Section - Contact Info */}
@@ -193,7 +193,7 @@ const TransparentNavbar = () => {
 
             {/* Navigation Links - Increased Size */}
             <div className="flex items-center justify-center flex-1 px-4 lg:px-6 xl:px-8 min-w-0">
-              <ul className="flex items-center justify-center space-x-8 ">
+              <ul className="flex items-center justify-center space-x-8">
                 {mainLinks.map((link, index) => (
                   <li
                     key={index}
@@ -368,7 +368,7 @@ const TransparentNavbar = () => {
           </div>
 
           {/* Enhanced Menu Items */}
-          <div className=" overflow-y-auto py-6">
+          <div className="overflow-y-auto py-6">
             <div className="space-y-2 px-4">
               {mainLinks.map((link, index) => (
                 <div key={index} className="group">

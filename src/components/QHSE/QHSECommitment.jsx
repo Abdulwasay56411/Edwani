@@ -88,7 +88,7 @@ const QHSECommitment = () => {
           </h1>
           <div className="w-16 sm:w-20 h-1 bg-[#2387C0] mx-auto mb-4 md:mb-6"></div>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            At Al-Edwani Establishment, our long-term success depends on our
+            At Edwani Contracting, our long-term success depends on our
             ability to continually improve while protecting our people, clients,
             and the environment.
           </p>
@@ -167,7 +167,7 @@ const QHSECommitment = () => {
             <div>
               <p className="text-gray-600 leading-relaxed mb-6 md:mb-8 text-base md:text-lg">
                 Certified in alignment with international HSE standards, our
-                policies are implemented across all Al-Edwani operations to
+                policies are implemented across all Edwani Contracting operations to
                 ensure the highest levels of protection and sustainability.
               </p>
 
@@ -281,7 +281,7 @@ const QHSECommitment = () => {
           <div className="max-w-4xl mx-auto">
             <BiTargetLock className="h-12 w-12 mx-auto mb-4 text-[#2387C0]" />
             <p className="text-base md:text-lg text-gray-600 mb-6 md:mb-8 leading-relaxed">
-              Al-Edwani Establishment strives to exceed client expectations by
+              Edwani Contracting strives to exceed client expectations by
               delivering the highest level of service quality while maintaining
               a proactive approach to QHSE. We integrate continuous improvement,
               accountability, and professional excellence into all processes,

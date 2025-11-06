@@ -110,7 +110,7 @@ const About = () => {
             <div className="absolute inset-0 bg-gradient-to-bl from-sky-500/5 to-blue-700/8 rounded-3xl" />
             <img
               src="/homeabout-3.jpg"
-              alt="Al-Edwani Infrastructure & Road Construction Expertise"
+              alt="Edwani Contracting Infrastructure & Road Construction Expertise"
               className="w-full h-full rounded-3xl object-cover 
                          shadow-xl border-[4px] border-white/90
                          group-hover:shadow-2xl group-hover:scale-[1.015]
@@ -154,7 +154,7 @@ const About = () => {
             <div className="absolute -left-4 md:-left-6 top-0 w-1 h-full bg-gradient-to-b from-[#2387C0] to-sky-400 rounded-full" />
             <p className="text-gray-800 text-base md:text-lg leading-7 md:leading-9 font-medium pl-4 md:pl-4">
               <strong className="font-bold text-gray-900">
-                Mohaisin Ibrahim Taama Edwani Contracting Establishment
+                Mohaisin Ibrahim Taama Edwani Contracting 
               </strong>{" "}
               has been the{" "}
               <span className="text-[#2387C0] font-semibold">
@@ -164,16 +164,6 @@ const About = () => {
               Kingdom of Saudi Arabia since 1990.
             </p>
           </div>
-
-          <p className="text-gray-700 text-sm md:text-base leading-7 md:leading-8 font-normal border-l-4 border-blue-100 pl-4 md:pl-6 py-2 bg-blue-50/30 rounded-r-lg">
-            Our comprehensive portfolio spans{" "}
-            <strong>Building & Road Construction</strong>,
-            <strong> Infrastructure Development</strong>, and specialized{" "}
-            <strong>Transportation Services</strong>. With projects
-            strategically located across numerous regions of Saudi Arabia, we
-            bring unparalleled expertise to every undertaking.
-          </p>
-
           <p className="text-gray-600 text-sm md:text-base leading-7 md:leading-8 font-light italic border-t border-blue-100/50 pt-4 md:pt-6">
             "Regardless of project complexity or geographical challenges, Edwani
             contracting Establishment delivers exceptional results through our

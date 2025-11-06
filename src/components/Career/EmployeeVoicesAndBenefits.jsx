@@ -15,7 +15,7 @@ const EmployeeVoicesAndBenefits = () => {
     {
       id: 1,
       quote:
-        "I joined Al-Edwani as a trainee technician. Today, I manage a team at one of the country's largest infrastructure sites. Growth here is real and rewarding.",
+        "I joined Edwani Contracting as a trainee technician. Today, I manage a team at one of the country's largest infrastructure sites. Growth here is real and rewarding.",
       name: "Ahmed Raza",
       position: "Site Supervisor",
       avatar: "/emp1.jpg",
@@ -25,7 +25,7 @@ const EmployeeVoicesAndBenefits = () => {
     {
       id: 2,
       quote:
-        "The safety standards and professional development opportunities at Al-Edwani are exceptional. I've grown both personally and professionally.",
+        "The safety standards and professional development opportunities at Edwani Contracting are exceptional. I've grown both personally and professionally.",
       name: "Sana Malik",
       position: "HR Coordinator",
       avatar: "/emp2.jpg",
@@ -35,7 +35,7 @@ const EmployeeVoicesAndBenefits = () => {
     {
       id: 3,
       quote:
-        "The safety standards and professional development opportunities at Al-Edwani are exceptional. I've grown both personally and professionally.",
+        "The safety standards and professional development opportunities at Edwani Contracting are exceptional. I've grown both personally and professionally.",
       name: "Khalid Al-Mansour",
       position: "Senior Safety Officer",
       avatar: "/emp3.jpg",

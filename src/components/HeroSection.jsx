@@ -108,7 +108,7 @@ const HeroSection = () => {
           {/* Premium Content */}
           <motion.div className="space-y-6 w-full" variants={fadeUp}>
             <p className="text-gray-700 text-base md:text-lg leading-7 md:leading-8 font-medium text-center xl:text-left">
-              Explore the difference with Al-Edwani — where quality meets
+              Explore the difference with Edwani Contracting — where quality meets
               reliability. We deliver exceptional construction services with
               unparalleled expertise.
             </p>
@@ -215,7 +215,7 @@ const HeroSection = () => {
                 {[
                   "Quality Control System and 100% Satisfaction Guarantee",
                   "Highly Professional Staff and Accurate Testing Processes",
-                  "Unrivaled Workmanship and Professional and Qualified",
+                  "Unrivaled Workmanship,Professional and Qualified",
                 ].map((text, i) => (
                   <motion.li
                     key={i}
@@ -274,7 +274,7 @@ const HeroSection = () => {
               className="text-xl text-gray-600 leading-relaxed max-w-2xl mx-auto mb-12 font-light"
               variants={fadeUp}
             >
-              Excellence in every project. Trust Al-Edwani for unparalleled
+              Excellence in every project. Trust Edwani Contracting for unparalleled
               construction quality and reliability that stands the test of time.
             </motion.p>
           </motion.div>
@@ -290,7 +290,7 @@ const HeroSection = () => {
                 className="text-lg text-gray-700 leading-8 font-medium"
                 variants={fadeUp}
               >
-                Explore the difference with Al-Edwani — where quality meets
+                Explore the difference with Edwani Contracting — where quality meets
                 reliability. We deliver exceptional construction services with
                 unparalleled expertise.
               </motion.p>

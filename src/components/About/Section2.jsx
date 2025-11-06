@@ -117,11 +117,8 @@ const Section2 = () => {
               </div>
 
               <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                <span className="relative inline-block">Al-Edwani</span>
+                <span className="relative inline-block">Edwani Contracting</span>
                 <br />
-                <span className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
-                  Establishment
-                </span>
               </h2>
             </motion.div>
 
@@ -135,7 +132,7 @@ const Section2 = () => {
             >
               <p className="text-base sm:text-lg leading-relaxed text-gray-700 font-normal">
                 <span className="font-semibold text-gray-900">
-                  Mohaisin Ibrahim Taama Al-Edwani Establishment
+                  Mohaisin Ibrahim Taama Edwani Contracting
                 </span>{" "}
                 has been the premier choice for construction, road projects, and
                 equipment Services in the Kingdom of Saudi Arabia since 1990.

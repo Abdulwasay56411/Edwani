@@ -89,7 +89,7 @@ const SafetyStandards = () => {
               <div className="space-y-3">
                 <p className="text-base sm:text-lg leading-relaxed text-gray-700 font-normal">
                   <span className="font-semibold text-gray-900">
-                    Mohaisin Ibrahim Taama Al-Edwani Establishment
+                    Mohaisin Ibrahim Taama Edwani Contracting
                   </span>{" "}
                   maintains the highest safety standards across all construction
                   operations, ensuring zero-compromise protection for our team,

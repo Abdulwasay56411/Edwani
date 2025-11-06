@@ -80,7 +80,7 @@ const WorkCulture = () => {
               </p>
 
               <h3 className="text-lg sm:text-xl md:text-2xl font-semibold text-[#2387C0] mb-4 md:mb-6">
-                Life at Al-Edwani means:
+                Life at Edwani Contracting means:
               </h3>
             </div>
 

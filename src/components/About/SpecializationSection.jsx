@@ -82,7 +82,7 @@ const SpecializationSection = () => {
               <div className="space-y-3">
                 <p className="text-base sm:text-lg leading-relaxed text-gray-700 font-normal">
                   <span className="font-semibold text-gray-900">
-                    Mohaisin Ibrahim Taama Al-Edwani Establishment
+                    Mohaisin Ibrahim Taama Edwani Contracting
                   </span>{" "}
                   stands as a premier provider in the construction industry,
                   delivering excellence across multiple specialized domains.

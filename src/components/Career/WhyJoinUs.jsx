@@ -102,7 +102,7 @@ const WhyJoinUs = () => {
           <div className="w-16 sm:w-20 h-1 bg-[#2387C0] mx-auto mb-4 md:mb-6"></div>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
             Discover the exceptional benefits and opportunities that make
-            Al-Edwani the preferred choice for construction professionals in
+            Edwani Contracting the preferred choice for construction professionals in
             Saudi Arabia.
           </p>
         </div>

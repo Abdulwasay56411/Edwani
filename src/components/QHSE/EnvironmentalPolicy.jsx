@@ -76,7 +76,7 @@ const EnvironmentalPolicy = () => {
           </h1>
           <div className="w-16 sm:w-20 h-1 bg-[#2387C0] mx-auto mb-4 md:mb-6"></div>
           <p className="text-base sm:text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
-            Al-Edwani Establishment is committed to integrating environmental
+            Edwani Contracting is committed to integrating environmental
             protection into every process and task, ensuring a sustainable
             future for all.
           </p>
@@ -146,7 +146,7 @@ const EnvironmentalPolicy = () => {
                   Our Environmental Commitment
                 </h2>
                 <p className="text-lg opacity-95 leading-relaxed">
-                  At Al-Edwani Establishment, consideration for the protection
+                  At Edwani Contracting, consideration for the protection
                   of the environment is integrated into every process and task
                   our employees undertake.
                 </p>

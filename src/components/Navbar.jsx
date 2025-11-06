@@ -113,7 +113,7 @@ const Navbar = () => {
       "
     >
       {/* ===== Desktop Navbar ===== */}
-      <nav className="hidden xl:flex items-center text-sm justify-between bg-white rounded-[16px] px-5 md:px-6 py-2 shadow-sm">
+      <nav className="hidden xl:flex items-center text-sm justify-between bg-white rounded-[16px] px-5 md:px-4 py-2 shadow-sm">
         {/* Logo (clickable) */}
         <div
           onClick={() => navigate("/")}
