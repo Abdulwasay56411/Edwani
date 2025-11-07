@@ -123,7 +123,7 @@ const TransparentNavbar = () => {
       {/* Enhanced Top Links Bar - Professional Mobile Design */}
       <div className="w-full bg-gradient-to-r from-[#2387C0] to-[#2a95d6] py-2 px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
         <div className="w-full">
-          {/* Desktop & Tablet Top Links - UNCHANGED */}
+          {/* Desktop & Tablet Top Links */}
           <div className="hidden md:flex justify-between items-center text-white">
             {/* Left Section - Contact Info */}
             <div className="flex items-center space-x-4 lg:space-x-6">
@@ -169,7 +169,7 @@ const TransparentNavbar = () => {
             </div>
           </div>
 
-          {/* ===== UPDATED Mobile Top Links - Matches your image style ===== */}
+          {/* Mobile Top Links */}
           <div className="md:hidden flex flex-col items-center text-white py-3 space-y-3">
             {/* Email */}
             <div className="flex items-center space-x-2 text-sm font-medium">
@@ -220,12 +220,12 @@ const TransparentNavbar = () => {
       {/* Main Navigation Bar */}
       <div className="w-full bg-white/98 backdrop-blur-lg shadow-lg border-b border-gray-100">
         <div className="w-full py-2 px-4 sm:px-6 lg:px-8 xl:px-12 2xl:px-16">
-          {/* ===== Desktop Navbar (1024px and above) - Increased Navlink Size ===== */}
+          {/* ===== Desktop Navbar (1024px and above) - Fixed Spacing ===== */}
           <nav className="hidden xl:flex items-center justify-between py-3">
-            {/* Logo - Left Side */}
+            {/* Logo - Left Side with proper spacing */}
             <div
               onClick={() => navigate("/")}
-              className="flex items-center cursor-pointer select-none flex-shrink-0 group min-w-0"
+              className="flex items-center cursor-pointer select-none flex-shrink-0 group min-w-0 mr-8"
             >
               <img
                 width={60}
@@ -235,15 +235,15 @@ const TransparentNavbar = () => {
                 className="mr-3 transition-transform duration-300 group-hover:scale-105 flex-shrink-0"
               />
               <div className="min-w-0">
-                <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-bold text-[#2387C0] leading-tight">
+                <h1 className="text-xl xl:text-2xl 2xl:text-3xl font-bold text-[#2387C0] leading-tight whitespace-nowrap">
                   Edwani Contracting
                 </h1>
               </div>
             </div>
 
-            {/* Navigation Links - Increased Size */}
-            <div className="flex items-center justify-center flex-1 px-4 lg:px-6 xl:px-8 min-w-0">
-              <ul className="flex items-center justify-center space-x-8">
+            {/* Navigation Links - Centered with proper spacing */}
+            <div className="flex items-center justify-center flex-1 min-w-0 mx-8">
+              <ul className="flex items-center justify-center space-x-6 2xl:space-x-8">
                 {mainLinks.map((link, index) => (
                   <li
                     key={index}
@@ -259,7 +259,7 @@ const TransparentNavbar = () => {
                       <div className="flex items-center">
                         <div
                           onClick={() => handleMainItemClick(link)}
-                          className={`flex items-center gap-1 text-[16px] lg:text-[17px] xl:text-[18px] py-2 font-semibold cursor-pointer transition-all duration-300 hover:scale-105 whitespace-nowrap ${
+                          className={`flex items-center gap-1 text-[15px] lg:text-[16px] xl:text-[17px] py-2 font-semibold cursor-pointer transition-all duration-300 hover:scale-105 whitespace-nowrap ${
                             isDropdownActive(link.name)
                               ? "text-[#2387C0]"
                               : "text-[#171717] hover:text-[#2387C0]"
@@ -281,14 +281,14 @@ const TransparentNavbar = () => {
                                 ? "rotate-180 text-[#2387C0]"
                                 : ""
                             }`}
-                            size={20}
+                            size={18}
                           />
                         </div>
                       </div>
                     ) : (
                       <div
                         onClick={() => handleNavigation(link.path)}
-                        className={`text-[16px] lg:text-[17px] xl:text-[18px] font-semibold cursor-pointer transition-all duration-300 hover:scale-105 whitespace-nowrap ${
+                        className={`text-[15px] lg:text-[16px] xl:text-[17px] font-semibold cursor-pointer transition-all duration-300 hover:scale-105 whitespace-nowrap ${
                           isActivePath(link.path)
                             ? "text-[#2387C0]"
                             : "text-[#171717] hover:text-[#2387C0]"
@@ -305,7 +305,7 @@ const TransparentNavbar = () => {
                           <div
                             key={subIndex}
                             onClick={() => handleNavigation(subLink.path)}
-                            className={`px-5 py-3 text-[15px] xl:text-[16px] font-medium cursor-pointer transition-all duration-200  ${
+                            className={`px-5 py-3 text-[14px] xl:text-[15px] font-medium cursor-pointer transition-all duration-200 ${
                               isActivePath(subLink.path)
                                 ? "bg-[#2387C0] text-white"
                                 : "text-[#333] hover:bg-blue-50 hover:text-[#2387C0]"
@@ -321,51 +321,167 @@ const TransparentNavbar = () => {
               </ul>
             </div>
 
-            {/* Contact Button - Right Side */}
-            <button
-              onClick={() => navigate("/contact")}
-              className="px-6 lg:px-7 xl:px-8 py-3 lg:py-3.5 xl:py-4 text-white bg-gradient-to-r from-[#2387C0] to-[#2a95d6] font-semibold text-[14px] lg:text-[15px] xl:text-[16px] rounded-xl hover:from-[#1e76a9] hover:to-[#2387C0] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 flex-shrink-0 whitespace-nowrap"
-            >
-              Contact Us
-            </button>
+            {/* Contact Button - Right Side with proper spacing */}
+            <div className="flex-shrink-0 ml-8">
+              <button
+                onClick={() => navigate("/contact")}
+                className="px-6 lg:px-7 xl:px-8 py-3 lg:py-3.5 xl:py-4 text-white bg-gradient-to-r from-[#2387C0] to-[#2a95d6] font-semibold text-[14px] lg:text-[15px] xl:text-[16px] rounded-xl hover:from-[#1e76a9] hover:to-[#2387C0] transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 whitespace-nowrap"
+              >
+                Contact Us
+              </button>
+            </div>
           </nav>
 
-          {/* ===== Tablet & Mobile Navbar (below 1024px) ===== */}
-          <nav className="flex xl:hidden items-center justify-between py-3">
+          {/* ===== Large Tablet Navbar (768px to 1023px) ===== */}
+          <nav className="hidden lg:flex xl:hidden items-center justify-between py-3">
+            {/* Logo */}
+            <div
+              onClick={() => navigate("/")}
+              className="flex items-center cursor-pointer select-none flex-shrink-0 group min-w-0"
+            >
+              <img
+                width={50}
+                height={50}
+                src="/icon1.png"
+                alt="Edwani Contracting"
+                className="mr-3 transition-transform duration-300 group-hover:scale-105 flex-shrink-0"
+              />
+              <div className="min-w-0">
+                <h1 className="text-lg lg:text-xl font-bold text-[#2387C0] leading-tight whitespace-nowrap">
+                  Edwani Contracting
+                </h1>
+              </div>
+            </div>
+
+            {/* Navigation Links - Adjusted for tablet */}
+            <div className="flex items-center justify-center flex-1 min-w-0 mx-4">
+              <ul className="flex items-center justify-center space-x-4">
+                {mainLinks.slice(0, 5).map(
+                  (
+                    link,
+                    index // Show fewer items on tablet
+                  ) => (
+                    <li
+                      key={index}
+                      className="relative flex-shrink-0"
+                      onMouseEnter={() =>
+                        link.hasDropdown && setActiveDropdown(link.name)
+                      }
+                      onMouseLeave={() =>
+                        link.hasDropdown && setActiveDropdown(null)
+                      }
+                    >
+                      {link.hasDropdown ? (
+                        <div className="flex items-center">
+                          <div
+                            onClick={() => handleMainItemClick(link)}
+                            className={`flex items-center gap-1 text-[14px] font-semibold cursor-pointer transition-all duration-300 hover:scale-105 whitespace-nowrap ${
+                              isDropdownActive(link.name)
+                                ? "text-[#2387C0]"
+                                : "text-[#171717] hover:text-[#2387C0]"
+                            }`}
+                          >
+                            {link.name}
+                          </div>
+                          <div
+                            onClick={() =>
+                              setActiveDropdown(
+                                activeDropdown === link.name ? null : link.name
+                              )
+                            }
+                            className="pl-1 cursor-pointer flex-shrink-0"
+                          >
+                            <HiChevronDown
+                              className={`text-[#666] transition-all duration-300 ${
+                                activeDropdown === link.name
+                                  ? "rotate-180 text-[#2387C0]"
+                                  : ""
+                              }`}
+                              size={16}
+                            />
+                          </div>
+                        </div>
+                      ) : (
+                        <div
+                          onClick={() => handleNavigation(link.path)}
+                          className={`text-[14px] font-semibold cursor-pointer transition-all duration-300 hover:scale-105 whitespace-nowrap ${
+                            isActivePath(link.path)
+                              ? "text-[#2387C0]"
+                              : "text-[#171717] hover:text-[#2387C0]"
+                          }`}
+                        >
+                          {link.name}
+                        </div>
+                      )}
+
+                      {/* Dropdown Menu for tablet */}
+                      {link.hasDropdown && activeDropdown === link.name && (
+                        <div className="absolute top-full left-0 w-56 bg-white rounded-xl shadow-2xl border border-gray-200 py-2 z-50">
+                          {NavLinks[link.name].map((subLink, subIndex) => (
+                            <div
+                              key={subIndex}
+                              onClick={() => handleNavigation(subLink.path)}
+                              className={`px-4 py-2 text-[13px] font-medium cursor-pointer transition-all duration-200 ${
+                                isActivePath(subLink.path)
+                                  ? "bg-[#2387C0] text-white"
+                                  : "text-[#333] hover:bg-blue-50 hover:text-[#2387C0]"
+                              }`}
+                            >
+                              {subLink.name}
+                            </div>
+                          ))}
+                        </div>
+                      )}
+                    </li>
+                  )
+                )}
+              </ul>
+            </div>
+
+            {/* Contact Button */}
+            <div className="flex-shrink-0">
+              <button
+                onClick={() => navigate("/contact")}
+                className="px-4 py-2 text-white bg-[#2387C0] font-semibold text-[13px] rounded-lg hover:bg-[#1e76a9] transition-all duration-300 shadow-md whitespace-nowrap"
+              >
+                Contact
+              </button>
+            </div>
+          </nav>
+
+          {/* ===== Mobile Navbar (below 768px) ===== */}
+          <nav className="flex lg:hidden items-center justify-between py-3">
             {/* Mobile Menu Button - Left Side */}
             <div
               onClick={() => setMenuOpen(!menuOpen)}
               className="cursor-pointer p-2 rounded-lg hover:bg-gray-100 transition-all duration-300 flex-shrink-0"
             >
-              <HiMenuAlt1 size={26} className="text-[#2387C0]" />
+              <HiMenuAlt1 size={24} className="text-[#2387C0]" />
             </div>
 
             {/* Mobile Logo - Centered */}
             <div
               onClick={() => navigate("/")}
-              className="flex items-center cursor-pointer flex-shrink-0 group min-w-0"
+              className="flex items-center cursor-pointer flex-shrink-0 group min-w-0 mx-2"
             >
               <img
-                width={45}
-                height={45}
+                width={40}
+                height={40}
                 src="/icon1.png"
                 alt="Edwani Contracting"
                 className="mr-2 transition-transform duration-300 group-hover:scale-105 flex-shrink-0"
               />
-              <div className="text-start min-w-0 flex flex-col md:flex-row md:gap-1">
-                <h1 className="text-[13px] sm:text-lg font-bold text-[#2387C0] leading-tight">
-                  Edwani
+              <div className="text-start min-w-0">
+                <h1 className="text-sm font-bold text-[#2387C0] leading-tight whitespace-nowrap">
+                  Edwani Contracting
                 </h1>
-                <p className="text-[13px] sm:text-lg font-bold text-[#2387C0] leading-tight">
-                  Contracting
-                </p>
               </div>
             </div>
 
             {/* Mobile Contact Button - Right Side */}
             <button
               onClick={() => navigate("/contact")}
-              className="px-3 sm:px-4 py-1.5 text-white bg-[#2387C0] font-semibold text-xs rounded-lg hover:bg-[#1e76a9] transition-all duration-300 shadow-md flex-shrink-0 whitespace-nowrap"
+              className="px-3 py-1.5 text-white bg-[#2387C0] font-semibold text-xs rounded-lg hover:bg-[#1e76a9] transition-all duration-300 shadow-md flex-shrink-0 whitespace-nowrap"
             >
               Contact
             </button>
