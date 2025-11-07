@@ -16,7 +16,7 @@ const Awards = () => {
       <PageHeader
         title="Awards & Recognition"
         subtitle="Edwani Contracting"
-        image="/qshe.jpg"
+        image="/qshebg.png"
       />
 
       {/* ✅ Awards Section */}

@@ -11,7 +11,7 @@ const Certifications = () => {
       <PageHeader
         title="Areas of Certification"
         subtitle="Edwani Contracting"
-        image="/qshe.jpg"
+        image="/qshebg.png"
       />
 
       {/* Content Section */}

@@ -10,7 +10,7 @@ const QualityPolicy = () => {
       <PageHeader
         title="Quality Policy"
         subtitle="Al - Edward Establishment"
-        image="/qshe.jpg"
+        image="/qshebg.png"
       />
 
       {/* ✅ Content Section */}

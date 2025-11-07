@@ -17,7 +17,7 @@ const Qhse = () => {
       <PageHeader
         title="QHSE"
         subtitle="Edwani Contracting"
-        image="/qshe.jpg"
+        image="/qshebg.png"
       />
 
       {/* ✅ Sections */}

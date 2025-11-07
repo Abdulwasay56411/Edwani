@@ -10,7 +10,7 @@ const Commitment = () => {
       <PageHeader
         title="Our Commitment"
         subtitle="Edwani Contracting"
-        image="/qshe.jpg"
+        image="/qshebg.png"
       />
 
       {/* ✅ Content Section */}

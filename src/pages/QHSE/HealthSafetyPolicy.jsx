@@ -10,7 +10,7 @@ const HealthSafetyPolicy = () => {
       <PageHeader
         title="Health & Safety Policy"
         subtitle="Edwani Contracting"
-        image="/qshe.jpg"
+        image="/qshebg.png"
       />
 
       {/* ✅ Content Section */}

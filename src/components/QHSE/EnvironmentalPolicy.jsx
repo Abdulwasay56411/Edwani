@@ -14,37 +14,37 @@ const EnvironmentalPolicy = () => {
 
   const policyPoints = [
     {
-      icon: <FaLeaf color="#2387C0" className="text-3xl " />,
+      icon: <FaLeaf className="text-3xl text-white" />,
       title: "Greener Environment",
       description:
         "Promoting a greener and cleaner environment for all through sustainable practices and eco-friendly initiatives.",
     },
     {
-      icon: <FaShieldAlt color="#2387C0" className="text-3xl" />,
+      icon: <FaShieldAlt className="text-3xl text-white" />,
       title: "Pollution Prevention",
       description:
         "Preventing pollution across all areas of operation through comprehensive environmental controls.",
     },
     {
-      icon: <FaClipboardCheck color="#2387C0" className="text-3xl" />,
+      icon: <FaClipboardCheck className="text-3xl text-white" />,
       title: "Regulatory Compliance",
       description:
         "Ensuring awareness of and compliance with all applicable statutory regulations and requirements.",
     },
     {
-      icon: <FaBolt color="#2387C0" className="text-3xl" />,
+      icon: <FaBolt className="text-3xl text-white" />,
       title: "Resource Conservation",
       description:
         "Minimizing environmental impact through conservation of natural resources and energy.",
     },
     {
-      icon: <FaChartLine color="#2387C0" className="text-3xl" />,
+      icon: <FaChartLine className="text-3xl text-white" />,
       title: "Continuous Improvement",
       description:
         "Continually improving our Environmental Management System for better environmental performance.",
     },
     {
-      icon: <FaRecycle color="#2387C0" className="text-3xl" />,
+      icon: <FaRecycle className="text-3xl text-white" />,
       title: "Waste Management",
       description:
         "Reducing waste and maximizing recycling initiatives across all operations.",
@@ -146,9 +146,9 @@ const EnvironmentalPolicy = () => {
                   Our Environmental Commitment
                 </h2>
                 <p className="text-lg opacity-95 leading-relaxed">
-                  At Edwani Contracting, consideration for the protection
-                  of the environment is integrated into every process and task
-                  our employees undertake.
+                  At Edwani Contracting, consideration for the protection of the
+                  environment is integrated into every process and task our
+                  employees undertake.
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">

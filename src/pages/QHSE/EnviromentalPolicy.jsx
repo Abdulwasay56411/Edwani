@@ -10,7 +10,7 @@ const EnvironmentalPolicy = () => {
       <PageHeader
         title="Environmental Policy"
         subtitle="Edwani Contracting"
-        image="/qshe.jpg"
+        image="/qshebg.png"
       />
 
       {/* ✅ Content Section */}
