@@ -57,7 +57,7 @@ const HeroSection = () => {
   };
 
   return (
-    <section className="relative bg-[#F8FAFB] overflow-hidden w-full">
+    <section className="relative  overflow-hidden w-full">
       {/* Animated Background */}
       <motion.img
         src="/background hero.png"
